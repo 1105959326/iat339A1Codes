@@ -3,6 +3,10 @@
 li{
 	display: inline;
 }
+a{
+	text-decoration: none;
+	color:#767676;
+}
 
 div.logo{
 	background-color: grey;
