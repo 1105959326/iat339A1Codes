@@ -23,6 +23,11 @@ div.img{
 	width: 200px;
 	background-color: grey;
 }
+
+
+
+
+
 div.cart{
 	margin-top: 20px;
 	height:100px;
@@ -42,7 +47,7 @@ h1{
 	border-top: 2px solid #767676;
 	color: #767676;
 	font-family: 'Saira Extra Condensed', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 p.product{
