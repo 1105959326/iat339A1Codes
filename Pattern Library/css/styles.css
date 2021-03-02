@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Sacramento&display=swap');
+
+a{
+	font-family: 'Benne', serif;
+	font-size: 16px;
+}
+
+a.intext:hover{
+	background-color:rgb(255, 230, 230);
+}
+
+pre{
+	color: rgb(248, 248, 242);
+}
+
+.button{
+	text-decoration: none;
+	border: 1px solid #BABABA;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-size: 24px;
+	color: #85837B;
+}
+
+.submit{
+	font-family: 'Roboto';
+	background-color: #EECECE;
+	color: #F7F7F7;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.reset{
+	font-family: 'Roboto';
+	color: #EECECE;
+	background-color: #F7F7F7;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 0.3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+input{
+	color: #BABABA;
+	font-size: 18px;
+	font-family: 'Benne', serif;
+	padding-left: 0.5rem;
+}
+
+.jade{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #7E7F7A;
+}
+
+.Olive{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #85837b;
+}
+
+.grey{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #bababa;
+}
+
+.smoke{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #6e7376;
+}
+
+.pink{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #e3a6ae;
+}
+
+.lightpink{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #eecece;
+}
+
+.lightgrey{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #f7f7f7;
+}
+
+.grey-blue{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #b7cbcb;
+}
+
+h1{
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 60px;
+	color: #7E7F7A
+}
+
+h2{
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 36px;
+	color: #7E7F7A;
+}
+
+h3{
+	font-family: 'Benne', serif;
+	font-weight: 100;
+	font-size: 24px;
+	color: #85837B;
+}
+
+p, li{
+	font-family: 'Benne', serif;
+	font-size: 18px;
+	color: #85837B;
+}
+
+
+.title{
+	font-family: 'Sacramento';
+	font-size: 48px;
+}
+
+.mainImg{
+	width: 445px;
+	height: 445px;
+}
+
+.miniImg{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	margin-left: 3%;
+	margin-right: 3%;
+	background-color: white;
+}
+
+.white{
+	width: 20px;
+	margin-right: 15px;
+	height: 20px;
+	border: 1px solid black;
+	float: left;
+	background-color: white;
+}
+
+.white:hover{
+	border: 1px solid black;
+}
+
+.greyC{
+	width: 20px;
+	margin-right: 15px;
+	height: 20px;
+	border: 1px solid black;
+	float: left;
+	background-color: grey;
+}
+
+.black{
+	width: 20px;
+	margin-right: 15px;
+	height: 20px;
+	border: 1px solid black;
+	float: left;
+	background-color: black;
+}
+
+.interactB{
+	text-decoration: none;
+}
+
+body{
+	background-color: #F7F7F7;
+}
+
+.suggestImg{
+	margin: auto;
+	height: 252px;
+	width: 252px;
+	background-color: white;
+}
+
+.cartB{
+	border-top: 1px solid #BABABA;
+}
+
+.cartGrid{
+	border-bottom: 1px solid #BABABA;
+}
+
+.cartItem{
+	border-bottom: 1px solid #BABABA;
+}
+
+.number{
+	margin: auto;
+	width: 3rem;
+	height: 1.5rem;
+	text-align: center;
+}
