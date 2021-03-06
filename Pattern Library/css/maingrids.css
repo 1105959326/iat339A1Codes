@@ -42,17 +42,6 @@ pre{
 	grid-column: 2/13;
 }
 
-.mainImg{
-	grid-column: 4/7;
-}
-
-.infor{
-	grid-column: 8/13;
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: 2rem 13rem 1rem;
-}
-
 .textContainer{
 	grid-column: 1/6;
 }
@@ -65,25 +54,6 @@ pre{
 
 .description{
 	grid-column: 1/4;
-}
-
-.details{
-	grid-column: 1/4;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	margin-block-start: 0;
-}
-
-.detailName{
-	margin-block-start: 0;
-}
-
-.rightC{
-	margin-block-start: 0;
-	grid-column: 3/3;
-	padding-top: 10px;
-	text-align: center;
-	margin-block-start: 0;
 }
 
 .icons{
@@ -159,6 +129,47 @@ footer{
 	text-align: center;
 }
 
-/*-----------------------------HOME-------------------------------------*/
+/*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
+.mainImg{
+	grid-column: 3/7;
+}
 
+.infor{
+	grid-column: 8/13;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 2rem 13rem 1rem;
+}
 
+.details{
+	grid-column: 1/4;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin-block-start: 0;
+	margin-top: 3rem;
+}
+
+.detailName{
+	margin-block-start: 0;
+	grid-column: 1/2;
+	
+}
+
+.rightC{
+	margin-block-start: 0;
+	grid-column: 3/5;
+	padding-top: 10px;
+	text-align: center;
+	margin-block-start: 0;
+	margin-left: 3rem;
+}
+.single-submibutton{
+	grid-column: 9/13;
+    align-self: center;
+}
+.numb{
+	grid-column: 3/5;
+}
+.midImg{
+	grid-column: 1/13;
+}
