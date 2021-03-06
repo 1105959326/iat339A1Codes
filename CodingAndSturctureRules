@@ -1,16 +1,13 @@
 File Name Rules:
-1. Keep file names short, meaningful and easily understandable to others.
-2. Order the elements in a file name in the most appropriate way to retrieve the record.
-3. Avoid unnecessary repetition and redundancy in file names and paths
-4. Avoid obscure abbreviations and acronyms. Use agreed University abbreviations and codes where relevant.
-5. Avoid vague, unhelpful terms such as “miscellaneous” or “general” or “my files”
-6. Use capital letters to delimit words, as the preferred option, although underscores (_) or hyphens (-) may add clarity, they make the file name longer.
-7. For numbers 0-9, always use a minimum of two digit numbers to ensure correct numerical order (e.g. 01, 02, 03 etc.)
-8. Dates should always follow same format: YYYYMMDD e.g. 20170425
-9. When including a personal name give the family name first followed by initials, with no comma in between e.g. SmithAB
-10. Avoid using common words such as ‘draft’ or ‘letter’ at the start of file names unless doing so will make it easier to retrieve the record.
-11. Use alphanumeric characters i.e. letters (A-Z) and numbers (0-9). Avoid using invalid characters in file names such as *? \ / : # % ~ { }
-12. The file names of records relating to recurring events should include the date and a description of the event, except where the inclusion of these elements
-would be incompatible with rule 3.
-13. The version number of a record should be indicated in its file name by the inclusion of ‘V’ followed by the version number (e.g. V01, V03 etc.).
+Start with initial, no space or underscore, two digital number
 File Name example:CodingAndSturctureRules01
+
+Coding Rules:
+Use Lowercase Names
+Close All HTML Elements
+Always Quote Attribute Values
+Spaces and Equal Signs
+Blank Lines and Indentation
+Never Skip the <title> Element
+Setting The Viewport
+Using Style Sheets

@@ -1,6 +1,11 @@
 .navigrids{
 	background-color: #B7CBCB;
-	vertical-align: middle;	
+	vertical-align: middle;
+	height: 5em;	
+}
+
+ul{
+	margin: 0;
 }
 
 li{
@@ -11,6 +16,8 @@ li{
 .title{
 	display: inline-block;
 	grid-column: 1/8;
+	margin: 0;
+	margin-top: 0.5rem;
 	margin-right: 50%;
 }
 
