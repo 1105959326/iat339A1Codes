@@ -151,3 +151,10 @@ footer{
 	margin: auto;
 	text-align: center;
 }
+
+/*-----------------------------HOME-------------------------------------*/
+.navigrids{
+	grid-column: 1/10;
+}
+
+
