@@ -168,9 +168,6 @@ footer{
 .numb{
 	grid-column: 3/5;
 }
-.mm{
-	grid-column: 1/12;
-}
 .midImg{
 	grid-column: 1/13;
 }
