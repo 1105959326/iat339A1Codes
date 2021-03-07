@@ -1,9 +1,3 @@
-.navigrids{
-	background-color: #B7CBCB;
-	vertical-align: middle;
-	height: 5em;	
-}
-
 ul{
 	margin: 0;
 }
@@ -31,10 +25,8 @@ pre{
 }
 
 .navigrid{
+	grid-column: 1/12;
 	background-color: #F7F7F7;
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 26px 445px 120px;
 }
 
 .back{
@@ -182,4 +174,20 @@ footer{
 }
 .midImg{
 	grid-column: 1/13;
-	grid-template-rows:5/6;
+	width: 100%;
+	height: 250px;
+	margin-top: 5rem;
+	background-image: url(images/cup3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
+.buttonforhome{
+	position: relative;
+	margin-left: 10%;
+	top: -5em;
+}
+
