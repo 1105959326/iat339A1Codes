@@ -268,9 +268,10 @@ body{
 	background-position: top;
 	background-size: cover;
 }
-p.single{
+
 	
-}
+/*-----------------------------HOME PAGE-------------------------------------*/
+
 
 .homeImg{
 	width: 100%;
@@ -283,3 +284,6 @@ a.icon1{
 	height: 32px;
 }
 
+=======
+}
+>>>>>>> parent of dad7cca (A_Update1)

@@ -1,3 +1,9 @@
+.navigrids{
+	background-color: #B7CBCB;
+	vertical-align: middle;
+	height: 5em;	
+}
+
 ul{
 	margin: 0;
 }
@@ -25,8 +31,10 @@ pre{
 }
 
 .navigrid{
-	grid-column: 1/12;
 	background-color: #F7F7F7;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 26px 445px 120px;
 }
 
 .back{
@@ -181,6 +189,7 @@ footer{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+<<<<<<< HEAD
 }
 
 
@@ -191,3 +200,6 @@ footer{
 	top: -5em;
 }
 
+=======
+}
+>>>>>>> parent of dad7cca (A_Update1)
