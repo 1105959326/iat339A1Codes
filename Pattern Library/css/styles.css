@@ -150,6 +150,20 @@ p, li{
 	color: white;
 }
 
+.mainImg{
+	width: 445px;
+	height: 445px;
+}
+
+.miniImg{
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	margin-left: 3%;
+	margin-right: 3%;
+	background-color: white;
+}
+
 body{
 	background-color: #F7F7F7;
 }
@@ -199,21 +213,6 @@ body{
 .detailName{
 	margin-top: 5rem;
 }
-
-.mainImg{
-	width: 445px;
-	height: 445px;
-}
-
-.miniImg{
-	margin-top: 10px;
-	width: 100px;
-	height: 100px;
-	margin-left: 3%;
-	margin-right: 3%;
-	background-color: white;
-}
-
 .white{
 	width: 20px;
 	margin-right: 10px;
@@ -260,7 +259,7 @@ body{
 .midImg{
 	width: 100%;
 	height: 250px;
-	margin-top: 5px;
+	margin-top: 5rem;
 	background-image: url(images/cup3.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -275,9 +274,5 @@ p.single{
 	height: 49em;
 	background-image: url(../images/mainImage.png);
 	background-size: 100% 50em;
-}
-a.icon1{
-	width: 18px;
-	height: 32px;
 }
 
