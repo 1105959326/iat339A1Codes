@@ -72,8 +72,6 @@ header{
 	grid-column: 1/13;
 }
 
-
-
 .main{
 	grid-column: 1/13;
 }
@@ -189,3 +187,4 @@ footer{
 	margin-left: 10%;
 	top: -5em;
 }
+
