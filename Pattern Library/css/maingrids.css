@@ -46,19 +46,6 @@ pre{
 	grid-column: 1/6;
 }
 
-.name{
-	grid-column: 1/4;
-	margin-block-start: 0;
-	text-align: right; 
-}
-
-.description{
-	grid-column: 1/4;
-}
-
-.icons{
-	vertical-align: 100%;
-}
 
 .submibutton{
 	grid-column: 9/13;
@@ -152,6 +139,20 @@ footer{
 	grid-column: 1/2;
 	
 }
+.name{
+	grid-column: 1/5;
+	margin-block-start: 0;
+	text-align: left; 
+}
+
+.description{
+	grid-column: 1/4;
+	margin-top: 15%;
+}
+.icons{
+	vertical-align: 100%;
+}
+
 
 .rightC{
 	margin-block-start: 0;
@@ -168,9 +169,7 @@ footer{
 .numb{
 	grid-column: 3/5;
 }
-.mm{
-	grid-column: 1/12;
-}
+
 .midImg{
 	grid-column: 1/13;
 }

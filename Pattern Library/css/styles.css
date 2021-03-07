@@ -3,8 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Sacramento&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lora&display=swap');
+
 a{
-	font-family: 'Benne', serif;
+	font-family: 'Arapey', serif;
 	font-size: 16px;
 }
 
@@ -26,7 +29,7 @@ pre{
 }
 
 .submit{
-	font-family: 'Roboto';
+	font-family: 'Lora', serif;
 	background-color: #EECECE;
 	color: #F7F7F7;
 	text-decoration: none;
@@ -38,7 +41,7 @@ pre{
 }
 
 .reset{
-	font-family: 'Roboto';
+	font-family: 'Arapey', serif;
 	color: #EECECE;
 	background-color: #F7F7F7;
 	text-decoration: none;
@@ -52,7 +55,7 @@ pre{
 input{
 	color: #BABABA;
 	font-size: 18px;
-	font-family: 'Benne', serif;
+	font-family: 'Lora', serif;
 	padding-left: 0.5rem;
 }
 
@@ -113,7 +116,7 @@ input{
 }
 
 h1{
-	font-family: 'Old Standard TT', serif;
+	font-family: 'Arapey', serif;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 60px;
@@ -121,7 +124,7 @@ h1{
 }
 
 h2{
-	font-family: 'Old Standard TT', serif;
+	font-family: 'Arapey', serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 36px;
@@ -129,14 +132,14 @@ h2{
 }
 
 h3{
-	font-family: 'Benne', serif;
+	font-family: 'Arapey', serif;
 	font-weight: 100;
 	font-size: 24px;
 	color: #85837B;
 }
 
 p, li{
-	font-family: 'Benne', serif;
+	font-family: 'Lora', serif;
 	font-size: 18px;
 	color: #85837B;
 }
@@ -218,30 +221,33 @@ body{
 	width: 20px;
 	margin-right: 10px;
 	height: 20px;
-	border: 1px solid black;
+	border: 0.5px solid black;
 	float: left;
-	background-color: white;
+	background-color: #ECEBE7;
+	border-radius: 90px;
 }
 
 .greyC{
 	width: 20px;
 	margin-right: 10px;
 	height: 20px;
-	border: 1px solid black;
+	border: 0.5px solid black;
 	float: left;
-	background-color: grey;
+	background-color: #7C511F;
+	border-radius: 90px;
 }
 
 .black{
 	width: 20px;
 	height: 20px;
-	border: 1px solid black;
+	border: 0.5px solid black;
 	float: left;
-	background-color: black;
+	background-color: #B5A382;
+	border-radius: 90px;
 }
 
 .single-submit{
-	font-family: 'Roboto';
+	font-family: 'Lora', serif;
 	background-color: #EECECE;
 	color: #F7F7F7;
 	text-decoration: none;
