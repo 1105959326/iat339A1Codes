@@ -11,6 +11,11 @@ a{
 	font-size: 16px;
 }
 
+p{
+	font-family: 'Lora', serif;
+	font-size: 1em;
+}
+
 a.intext:hover{
 	background-color:rgb(255, 230, 230);
 }
@@ -22,6 +27,7 @@ pre{
 .button{
 	text-decoration: none;
 	border: 1px solid #BABABA;
+	padding: 0.5rem;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	font-size: 24px;
@@ -123,19 +129,24 @@ h1{
 	color: #7E7F7A
 }
 
-h2{
+h2, h5{
 	font-family: 'Arapey', serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 36px;
+	font-size: 2em;
 	color: #7E7F7A;
 }
 
 h3{
 	font-family: 'Arapey', serif;
+	text-align: center;
 	font-weight: 100;
 	font-size: 24px;
 	color: #85837B;
+}
+
+h5{
+	font-size: 5em;
 }
 
 p, li{
@@ -274,20 +285,53 @@ body{
 	margin-top: 15%;
 }
 
+a.icon1{
+	width: 18px;
+	height: 32px;
+}
+
 	
 /*-----------------------------HOME PAGE-------------------------------------*/
 
 
 .homeImg{
 	width: 100%;
-	height: 49em;
-	background-image: url(../images/mainImage.png);
-	background-size: 100% 50em;
-}
-a.icon1{
-	width: 18px;
-	height: 32px;
+	height: 39em;
+	background-image: url(../images/homeImg.png);
+	background-size: 100% 40em;
 }
 
+.logline{
+	font-family: 'Arapey', serif;
+	font-style: italic;
+	margin: auto;
+	width: 30%;
+	text-align: center;
+	font-size: 1.5em;
+}
 
+.loglineA{
+	font-family: 'Arapey', serif;
+	font-style: italic;
+	margin: auto;
+	padding-left: 20%;
+	width: 30%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.special{
+	margin: 0;
+	font-size: 6em;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	transform: rotate(180deg);
+	text-align: center;
+	position: relative;
+    left: 1em;
+}
+
+.cardName{
+	margin-bottom: 0;
+}
 
