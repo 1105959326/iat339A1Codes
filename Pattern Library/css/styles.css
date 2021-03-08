@@ -326,7 +326,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 1rem;
+	margin-left: 6rem;
 }
 .recomImg2{
 	float: left;
@@ -337,7 +337,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 2rem;
+	margin-left: 5rem;
 }
 .recomImg3{
 	float: left;
@@ -348,7 +348,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 2.5rem;
+	margin-left: 5rem;
 }
 .recomImg4{
 	float: left;
@@ -359,7 +359,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 2rem;
+	margin-left: 5rem;
 }
 .recomtext:: after {
 	content: "";
@@ -369,19 +369,19 @@ h2.recommend{
 }
 p.recomtext1{
 	float: left;
-	margin-left: 1.7rem;
+	margin-left: 7.4rem;
 }
 p.recomtext2{
 	float: left;
-	margin-left: 4.5rem;
+	margin-left: 7rem;
 }
 p.recomtext3{
 	float: left;
-	margin-left: 5.5rem;
+	margin-left: 8rem;
 }
 p.recomtext4{
 	float: left;
-	margin-left: 5rem;
+	margin-left: 8rem;
 }
 	
 /*-----------------------------HOME PAGE-------------------------------------*/
