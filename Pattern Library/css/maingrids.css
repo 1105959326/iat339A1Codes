@@ -127,10 +127,11 @@ footer{
 
 .infor{
 	grid-column: 8/13;
-	height: -70px;
+	height: -90px;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: 2rem 13rem 1rem;
+	grid-template-rows: 2rem 10rem 10rem;
+	
 }
 
 .details{
@@ -171,6 +172,7 @@ footer{
 .single-submibutton{
 	grid-column: 9/13;
     align-self: center;
+   
 }
 .numb{
 	grid-column: 3/5;
