@@ -48,6 +48,8 @@ pre{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	align-items: center;
+	margin: 0;
+	margin-bottom: -1em;
 }
 
 .submibutton{
@@ -62,7 +64,8 @@ body{
 .maingrid{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 5em 6fr 4fr 5fr 4fr 5em;
+	grid-template-rows: 5em 6fr 4fr 5fr 4fr;
+
 }
 
 header{
@@ -126,9 +129,10 @@ footer{
 }
 
 .infor{
-	grid-column: 8/13;
+	grid-column: 7/13;
 	height: -90px;
 	display: grid;
+	margin: 0;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 2rem 10rem 10rem;
 	
@@ -145,6 +149,7 @@ footer{
 .detailName{
 	margin-block-start: 0;
 	grid-column: 1/2;
+	text-align: left;
 	
 }
 .name{
@@ -162,11 +167,10 @@ footer{
 }
 
 .rightC{
-	margin-block-start: 0;
+	margin: 0;
 	grid-column: 3/5;
 	padding-top: 10px;
-	text-align: center;
-	margin-block-start: 0;
+	text-align: right;
 	margin-left: 3rem;
 }
 .single-submibutton{
@@ -214,17 +218,18 @@ footer{
 .setImg{
 	grid-column: 1/8;
 	margin-left: 3em;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .setH{
-	grid-column: 9/13;
+	grid-column: 8/13;
 	text-align: center;
 }
 
 .footer{
 	grid-column: 1/10;
+	height: 3em;
 }
 
 .titleFooter{
