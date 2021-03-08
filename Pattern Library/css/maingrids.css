@@ -198,6 +198,9 @@ footer{
 	grid-column: 2/12;
 
 }
+.recom{
+	grid-column: 2/12;
+}
 .recomImg{
 	grid-column: 2/12;
 }
