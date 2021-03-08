@@ -263,20 +263,21 @@ a.back{
 	display:inline-block;
 }
 
+.
 .single-submit{
-	font-family: 'Lora', serif;
-	background-color: #EECECE;
-	color: #F7F7F7;
-	text-decoration: none;
-	font-size: 24px;
-	font-weight: 700;
-	padding: 0.3em;
-	padding-left: 3em;
-	padding-right: 3em;
+ font-family: 'Lora', serif;
+ background-color: #EECECE;
+ color: #F7F7F7;
+ text-decoration: none;
+ font-size: 24px;
+ font-weight: 700;
+ padding: 0.3em;
+ padding-left: 3em;
+ padding-right: 3em;
 }
 .single-submibutton{
-	position :relative;
-	top: -18em;
+ position :relative;
+ top: -18em;
 }
 .interactB{
 	text-decoration: none;
