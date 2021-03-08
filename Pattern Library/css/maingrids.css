@@ -1,7 +1,12 @@
 .navigrids{
 	background-color: #B7CBCB;
 	vertical-align: middle;
-	height: 5em;	
+	height: 5em;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	text-align: center;
+	margin: 0;
+	align-items: center;
 }
 
 ul{
@@ -42,6 +47,7 @@ pre{
 .gridcontainer{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
+	align-items: center;
 }
 
 .submibutton{
@@ -204,6 +210,12 @@ footer{
 	text-align: center;
 }
 
+.footer{
+	grid-column: 1/10;
+}
 
-
+.titleFooter{
+	grid-column: 11/13;
+	margin: 0;
+}
 
