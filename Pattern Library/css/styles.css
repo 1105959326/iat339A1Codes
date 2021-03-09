@@ -218,17 +218,78 @@ a.back{
 .mainImg{
 	width: 445px;
 	height: 445px;
-	max-width: 80%;
-	max-height: 80%
+	
 }
 
-.miniImg{
+.miniImg::after{
+	
+	content: "";
+	display: table;
+	clear: both;
+}
+a.icon1{
+	float: left;
+	width: 18px;
+	height: 32px;
+	background-image: url(../images/Vector73.png);
+	margin-top: 2em;
+	margin-left: 3.5em;
+}
+
+.miniImg1{
+	float: left;
+	width: 60px;
+	height: 60px;
+	background-image: url(../images/cup1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 1em;
 	margin-top: 10px;
-	width: 100px;
-	height: 100px;
-	margin-left: 3%;
-	margin-right: 3%;
-	background-color: white;
+}
+.miniImg2{
+	float: left;
+	width: 60px;
+	height:60px;
+	background-image: url(../images/cup3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 2.5em;
+	margin-top: 10px;
+
+}
+.miniImg3{
+	float: left;
+	width: 60px;
+	height: 60px;
+	background-image: url(../images/cup4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 2.5em;
+	margin-top: 10px;
+
+}
+.miniImg4{
+	float: left;
+	width: 60px;
+	height: 60px;
+	background-image: url(../images/cup2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 2.5em;
+	margin-top: 10px;
+
+}
+a.icon2{
+	float: left;
+	width: 18px;
+	height: 32px;
+	background-image: url(../images/Vector67.png);
+	margin-top: 2em;
+	margin-left: 1em;
 }
 
 .white{
@@ -274,7 +335,7 @@ a.back{
 }
 .single-submibutton{
  position :relative;
- top: -18em;
+ top: 0em;
 }
 .interactB{
 	text-decoration: none;
@@ -282,7 +343,7 @@ a.back{
 .midImg{
 	width: 100%;
 	height: 300px;
-	margin-top: 5px;
+	margin-top: 20em;
 	background-image: url(../images/cup3.jpg);
 	background-repeat: no-repeat;
 	background-position: center top +71%;
@@ -384,6 +445,10 @@ p.recomtext3{
 p.recomtext4{
 	float: left;
 	margin-left: 5.3em;
+}
+
+@media screen and(max-width: 90em) {
+	
 }
 	
 /*-----------------------------HOME PAGE-------------------------------------*/
