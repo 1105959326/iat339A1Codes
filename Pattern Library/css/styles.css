@@ -369,7 +369,7 @@ h2.recommend{
 	
 }
 */
-@media screen and (max-width: 60em) {
+@media screen and (max-width: 94em) {
 	.infor{
 	margin-left: 11%;
 	position: relative;
@@ -414,9 +414,12 @@ h2.recommend{
 		height: 150px;
 	}
 
-
 }
-
+@media screen and (max-width: 70em) {
+	.cardName3{
+		margin-top: 24px;
+	}
+}
 
 
 	
