@@ -421,7 +421,6 @@ h2.recommend{
 	.cardName3{
 		margin-top: 24px;
 	}
-
 }
 
 @media screen and (max-width: 45em) {
@@ -455,6 +454,7 @@ h2.recommend{
 	.cardName3{
 		margin-top: 0px;
 	}
+
 	
 }
 
@@ -466,9 +466,6 @@ h2.recommend{
 
 .homeImg{
 	width: 100%;
-	height: 39em;
-	background-image: url(../images/homeImg.png);
-	background-size: 100% 40em;
 }
 
 .logline{
