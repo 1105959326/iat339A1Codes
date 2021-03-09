@@ -211,13 +211,11 @@ footer{
 	grid-column: 2/12;
 }
 
-@media screen and(max-width: 90em) {
-
-	
-
-
+@media screen and (max-width:1920px){
 
 }
+
+
 /*-----------------------------------HOME PAGE-------------------------------------*/
 .buttonforhome{
 	position: relative;

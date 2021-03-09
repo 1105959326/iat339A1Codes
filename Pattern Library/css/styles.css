@@ -387,7 +387,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 3em;
+	margin-left: 2.5em;
 }
 .recomImg2{
 	float: left;
@@ -422,6 +422,17 @@ h2.recommend{
 	vertical-align: top;
 	margin-left: 3em;
 }
+.recomImg5{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/cartItem1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: top;
+	margin-left: 3em;
+}
 .recomtext:: after {
 	content: "";
 	display: table;
@@ -430,7 +441,7 @@ h2.recommend{
 }
 p.recomtext1{
 	float: left;
-	margin-left: 4em;
+	margin-left: 3.5em;
 	margin-bottom: 5rem;
 }
 p.recomtext2{
@@ -444,12 +455,13 @@ p.recomtext3{
 }
 p.recomtext4{
 	float: left;
-	margin-left: 5.3em;
+	margin-left: 5em;
+}
+p.recomtext5{
+	float: left;
+	margin-left: 4em;
 }
 
-@media screen and(max-width: 90em) {
-	
-}
 	
 /*-----------------------------HOME PAGE-------------------------------------*/
 
