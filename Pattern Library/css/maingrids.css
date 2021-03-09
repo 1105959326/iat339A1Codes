@@ -207,9 +207,7 @@ footer{
 .recomImg{
 	grid-column: 2/12;
 }
-.recomtext{
-	grid-column: 2/12;
-}
+
 
 @media screen and (max-width:1920px){
 

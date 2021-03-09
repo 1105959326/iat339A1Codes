@@ -310,13 +310,9 @@ h2.recommend{
 	border-bottom: 1px solid #85837B;
 	margin-bottom: 3em;
 }
-.recomImg:: after {
-	content: "";
-	display: table;
-	clear: both;
-}
+
 .recomImg1{
-	float: left;
+	
 	width: 200px;
 	height: 200px;
 	background-image: url(../images/img1.jpg);
@@ -324,10 +320,10 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 2em;
+	
 }
 .recomImg2{
-	float: left;
+	
 	width: 200px;
 	height: 200px;
 	background-image: url(../images/img5.jpg);
@@ -335,10 +331,10 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 3em;
+	
 }
 .recomImg3{
-	float: left;
+	
 	width: 200px;
 	height: 200px;
 	background-image: url(../images/img3.jpg);
@@ -346,10 +342,10 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 3em;
+	
 }
 .recomImg4{
-	float: left;
+	
 	width: 200px;
 	height: 200px;
 	background-image: url(../images/img4.jpg);
@@ -357,10 +353,10 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 3em;
+	
 }
 .recomImg5{
-	float: left;
+	
 	width: 200px;
 	height: 200px;
 	background-image: url(../images/cartItem1.png);
@@ -368,37 +364,11 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 3em;
+	
 }
 
-.recomtext:: after {
-	content: "";
-	display: table;
-	clear: both;
 
-}
-p.recomtext1{
-	float: left;
-	margin-left: 2.5em;
-	margin-bottom: 5rem;
-}
-p.recomtext2{
-	float: left;
-	margin-left: 4.5em;
-	margin-bottom: 5em;
-}
-p.recomtext3{
-	float: left;
-	margin-left: 5em;
-}
-p.recomtext4{
-	float: left;
-	margin-left: 6em;
-}
-p.recomtext5{
-	float: left;
-	margin-left: 5em;
-}
+
 	
 /*-----------------------------HOME PAGE-------------------------------------*/
 
