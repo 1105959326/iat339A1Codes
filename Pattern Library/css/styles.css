@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lora&display=swap');
 
+
 a{
 	font-family: 'Arapey', serif;
 	font-size: 16px;
@@ -17,6 +18,16 @@ p{
 	font-size: 1em;
 }
 
+.intext{
+	text-decoration:none;
+	color:#85837B;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
 a.intext:hover{
 	background-color:rgb(255, 230, 230);
 }
@@ -26,13 +37,17 @@ pre{
 }
 
 .button{
-	text-decoration: none;
-	border: 1px solid #BABABA;
-	padding: 0.5rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
-	font-size: 24px;
-	color: #85837B;
+	background:#E3A6AE;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 2em;
+	text-align: center;
+	color: #F7F7F7;
+	padding: 0.3em;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .submit{
@@ -40,7 +55,8 @@ pre{
 	background-color: #EECECE;
 	color: #F7F7F7;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 1.5em;
+	line-height: 2em;
 	font-weight: 700;
 	padding: 0.3rem;
 	padding-left: 3rem;
@@ -48,57 +64,33 @@ pre{
 }
 
 .reset{
-	font-family: 'Arapey', serif;
+	background: #F7F7F7;
+	border: 1px solid #EECECE;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 2em;
 	color: #EECECE;
-	background-color: #F7F7F7;
-	text-decoration: none;
-	font-size: 24px;
-	font-weight: 700;
 	padding: 0.3rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
 
+label{
+	font-family: Arapey;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 39px;
+	color: #7E7F7A;
+}
+
 input{
-	color: #BABABA;
-	font-size: 18px;
-	font-family: 'Lora', serif;
-	padding-left: 0.5rem;
-}
-
-.jade{
-	margin: auto;
-	width: 100px;
-	height: 100px;
-	background-color: #7E7F7A;
-}
-
-.Olive{
-	margin: auto;
-	width: 100px;
-	height: 100px;
-	background-color: #85837b;
-}
-
-.grey{
-	margin: auto;
-	width: 100px;
-	height: 100px;
-	background-color: #bababa;
-}
-
-.smoke{
-	margin: auto;
-	width: 100px;
-	height: 100px;
-	background-color: #6e7376;
-}
-
-.pink{
-	margin: auto;
-	width: 100px;
-	height: 100px;
-	background-color: #e3a6ae;
+	background: #FFFFFF;
+	border: 1px solid #BABABA;
+	box-sizing: border-box;
+	border-radius: 5px;
 }
 
 .eden{
@@ -181,39 +173,60 @@ input{
 }
 
 h1{
-	font-family: 'Arapey', serif;
-	font-weight: 400;
-	font-style: italic;
-	font-size: 60px;
-	color: #7E7F7A
+	font-family: Arapey;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 110px;
+	letter-spacing: 0.3em;
+	color: #7E7F7A;
 }
 
-h2, h5{
-	font-family: 'Arapey', serif;
-	font-weight: 400;
+h2{
+	font-family: Arapey;
 	font-style: normal;
-	font-size: 2em;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 39px;
+	letter-spacing: 0.145em;
+	color: #767676;
+}
+
+h5{
+	font-family: Arapey;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 66px;		
 	color: #7E7F7A;
 }
 
 h3{
-	font-family: 'Arapey', serif;
-	text-align: center;
-	font-weight: 100;
-	font-size: 24px;
-	color: #85837B;
-}
-
-h5{
-	font-size: 5em;
+	font-family: Arapey;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	color: #767676;
 }
 
 p, li{
-	font-family: 'Lora', serif;
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 18px;
+	line-height: 23px;
 	color: #85837B;
 }
 
+ul, ol{
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 23px;
+	color: #85837B;
+}
 
 .title, .titleFooter{
 	font-family: 'Sacramento';
