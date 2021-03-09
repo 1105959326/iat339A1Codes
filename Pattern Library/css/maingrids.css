@@ -129,12 +129,9 @@ footer{
 	margin-top: 4em;
 	margin-left: 3em;
 }
-.miniImg{
-	grid-column: 3/8;
-}
 
 .infor{
-	grid-column: 8/13;
+	grid-column: 7/13;
 	height: -90px;
 	display: grid;
 	margin: 0;
@@ -201,17 +198,10 @@ footer{
 	grid-column: 2/12;
 
 }
-.recom{
-	grid-column: 2/12;
-}
 .recomImg{
 	grid-column: 2/12;
 }
 
-
-@media screen and (max-width:1920px){
-
-}
 
 
 /*-----------------------------------HOME PAGE-------------------------------------*/
