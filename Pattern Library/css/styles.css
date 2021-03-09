@@ -324,7 +324,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 6em;
+	margin-left: 2em;
 }
 .recomImg2{
 	float: left;
@@ -335,7 +335,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 5em;
+	margin-left: 3em;
 }
 .recomImg3{
 	float: left;
@@ -346,7 +346,7 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 5em;
+	margin-left: 3em;
 }
 .recomImg4{
 	float: left;
@@ -357,31 +357,47 @@ h2.recommend{
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: top;
-	margin-left: 5em;
+	margin-left: 3em;
 }
+.recomImg5{
+	float: left;
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/cartItem1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: top;
+	margin-left: 3em;
+}
+
 .recomtext:: after {
 	content: "";
 	display: table;
 	clear: both;
-	margin-left: 2em;
+
 }
 p.recomtext1{
 	float: left;
-	margin-left: 7.4em;
+	margin-left: 2.5em;
 	margin-bottom: 5rem;
 }
 p.recomtext2{
 	float: left;
-	margin-left: 7em;
+	margin-left: 4.5em;
 	margin-bottom: 5em;
 }
 p.recomtext3{
 	float: left;
-	margin-left: 8em;
+	margin-left: 5em;
 }
 p.recomtext4{
 	float: left;
-	margin-left: 8em;
+	margin-left: 6em;
+}
+p.recomtext5{
+	float: left;
+	margin-left: 5em;
 }
 	
 /*-----------------------------HOME PAGE-------------------------------------*/
