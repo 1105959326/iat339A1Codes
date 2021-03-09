@@ -6,6 +6,35 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/grids.css">
 	<title>Pattern Library</title>
+	<style>
+	::-webkit-input-placeholder { /* Edge */
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		color: #7E7F7A;
+	  }
+	  
+	  :-ms-input-placeholder { /* Internet Explorer */
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		color: #7E7F7A;
+	  }
+	  
+	  ::placeholder {
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		color: #7E7F7A;
+	  }
+	  </style>
+
 </head>
 <body>
 <div class="gridcontainer">
@@ -29,47 +58,140 @@
 
 	<div class="elements">
 		<h4>in-text link</h4>
-		<a class="intext" href="">in-text link</a>
+		<a class="intext" href="" 
+		style="
+		text-decoration:none;
+		color:#85837B;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 31px;">in-text link</a>
 		<p>This is the style of in-text link.</p>
 		<pre>
-		&lt;a class="intext" href=""&gt;in-text link&lt;/a&gt;
+		&lt;a class="intext" href="" 
+		style="text-decoration:none;
+		color:#85837B;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 31px;"&gt;in-text link&lt;/a&gt;
 		</pre>
 	</div>
 
 	<div class="elements">
 		<h4>Buttons</h4>
-		<a class="button" href="">BUTTON</a>
+		<a class="button" href=""
+		style="
+		background:#E3A6AE;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 31px;
+		text-align: center;
+		color: #F7F7F7;">BUTTON</a>
 		<p>This is the style for most of buttons.</p>
 		<pre>
-		&lt;a class="button" href=""&gt;BUTTON&lt;/a&gt;
+		&lt;a class="button" href="" 
+		style="background:#E3A6AE;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 31px;
+		text-align: center;
+		color: #F7F7F7;"&gt;BUTTON&lt;/a&gt;
 		</pre>
 	</div>
 
 	<div class="elements">
 		<h4>Submit and Reset buttons</h4>
-		<a class="submit" href="">SUBMIT</a>
+		<a class="submit" href=""
+		style="
+		background: #EECECE;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 31px;
+		color: #F7F7F7;">SUBMIT</a>
 		<p>This is the style for the submit button.</p>
 		<pre>
-		&lt;a class="submit" href=""&gt;SUBMIT&lt;/a&gt;
+		&lt;a class="submit" href=""
+		style="background: #EECECE;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 31px;
+		color: #F7F7F7;"&gt;SUBMIT&lt;/a&gt;
 		</pre>
 
 		<p>Reset button</p>
-		<a class="reset" href="">RESET</a>
+		<a class="reset" href=""
+		style="
+		background: #F7F7F7;
+		border: 1px solid #EECECE;
+		box-sizing: border-box;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 31px;
+		color: #EECECE;">RESET</a>
 		<p>This is the style for the reset button.</p>
 		<pre>
-		&lt;a class="reset" href=""&gt;RESET&lt;/a&gt;
+		&lt;a class="reset" href=""
+		style="background: #F7F7F7;
+		border: 1px solid #EECECE;
+		box-sizing: border-box;
+		font-family: Lora;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 31px;
+		color: #EECECE;"&gt;RESET&lt;/a&gt;
 		</pre>
 	</div>
 
 
 	<div class="elements">
 		<h4>Text input and Label</h4>
-		<label>First Name: </label>
-		<input type="text" name="firstname" placeholder="Enter your First Name"></input>
+		<label style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 39px;
+		color: #7E7F7A;">First Name: </label>
+		<input type="text" name="firstname" placeholder="Enter your First Name"
+		style="
+		background: #FFFFFF;
+		border: 1px solid #BABABA;
+		box-sizing: border-box;
+		border-radius: 5px;
+		"></input>
+		<!-- no inline placeholder style https://stackoverflow.com/questions/2610497/change-a-html5-inputs-placeholder-color-with-css -->
 		<p>This is the style for input text field and labels</p>
 		<pre>
-		&lt;label&gt;label&lt;/label&gt;
-		&lt;input type="text" name="firstname" placeholder="Enter your First Name"&gt;&lt;/input&gt;
+		&lt;label
+		style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 39px;
+		color: #7E7F7A;"
+		&gt;label&lt;/label&gt;
+		&lt;input type="text" name="firstname" placeholder="Enter your First Name"
+		style="
+		background: #FFFFFF;
+		border: 1px solid #BABABA;
+		box-sizing: border-box;
+		border-radius: 5px;
+		&gt;&lt;/input&gt;
 		</pre>
 	</div>
 
@@ -78,85 +200,179 @@
 		<h4>Color swatches</h4>
 		<div class="colors">
 			<div>
-			<p>Jade  #7e7f7a</p>
+			<p>Eden  #0B4841</p>
 			<p>Color for some texts and headings</p>
-			<div class="jade"> </div>			
+			<div class="eden"> </div>			
 			</div>
 
 			<div>
-			<p>Olive  #85837b</p>
+			<p>Friar Gray  #85837b</p>
 			<p>Color for most texts and headings</p>
-			<div class="Olive"> </div>
+			<div class="friar_gray"> </div>
 			</div>
 
 			<div>
-			<p>grey  #bababa</p>
+			<p>Shilo  #E3A6AE</p>
 			<p>Color for decoration elements</p>
-			<div class="grey"> </div>			
+			<div class="shilo"> </div>			
 			</div>
 
 			<div>
-			<p>pink  #e3a6ae</p>
+			<p>Silver  #BABABA</p>
 			<p>Color for some button background</p>
-			<div class="pink"> </div>			
+			<div class="silver"> </div>			
 			</div>
 
 			<div>
 			<p>light-pink   #eecece</p>
 			<p>Color for most button background</p>
-			<div class="lightpink"> </div>			
+			<div class="light-pink"> </div>			
 			</div>
 
 			<div>
-			<p>light-grey   #f7f7f7</p>
+			<p>Bitter   #7E7F7A</p>
 			<p>Color for background</p>
-			<div class="lightgrey"> </div>			
+			<div class="bitter"> </div>			
 			</div>
 
 			<div>
-			<p>grey-blue   #b7cbcb</p>
+			<p>Nevada   #6E7376</p>
 			<p>Color for header and footer</p>
-			<div class="grey-blue"> </div>			
+			<div class="nevada"> </div>		
+			
+			<div></div>
+			<p>Submarine   #B7CBCB</p>
+			<p>Color for header and footer</p>
+			<div class="submarine"> </div>
 			</div>
+
 		</div>
 	</div>
 
 	<h3 id="text">Text Styling</h3>
 	<div class="elements">
 		<h4>Headings</h4>
-		<h1>HEADING 1</h1>
+		<h1 style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		line-height: 110px;
+		letter-spacing: 0.3em;
+		
+		color: #7E7F7A;">HEADING 1</h1>
 		<p>Heading for the main title</p>
-		<h5>Heading 2</h5>
+
+		<h5 style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		line-height: 66px;		
+		color: #7E7F7A;">Heading 2</h5>
 		<p>Heading for the sceond title</p>
-		<h2>Heading 3</h2>
+		<h2 style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 39px;
+		letter-spacing: 0.145em;
+		color: #767676;">Heading 3</h2>
 		<p>Heading for the sceond title</p>
-		<h3>Heading 4</h3>
+		<h3 style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 20px;
+		color: #767676;">Heading 4</h3>
 		<p>Heading for some button and third level headings</p>
 		<pre>
-		&lt;h1&gt; HEADING 1&lt;/h1&gt;
-		&lt;h5&gt; Heading 2&lt;/h5&gt;
-		&lt;h2&gt; Heading 3&lt;/h2&gt;
-		&lt;h3&gt; Heading 4&lt;/h3&gt;
+		&lt;h1
+		style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		line-height: 110px;
+		letter-spacing: 0.3em;
+		color: #7E7F7A;"&gt; HEADING 1&lt;/h1&gt;
+
+		&lt;h5
+		style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 60px;
+		line-height: 66px;		
+		color: #7E7F7A;"&gt; Heading 2&lt;/h5&gt;
+
+		&lt;h2 style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 36px;
+		line-height: 39px;
+		letter-spacing: 0.145em;
+		color: #767676;"&gt; Heading 3&lt;/h2&gt;
+
+		&lt;h3 style="
+		font-family: Arapey;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 20px;
+		color: #767676;"&gt; Heading 4&lt;/h3&gt;
 		</pre>
 	</div>
 	<div class="elements">
 		<h4>Paragraph</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+		<p style="
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		color: #85837B;"
+		>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 		<p>font for paragraphs</p>
 		<pre>
-		&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/p&gt;
+		&lt;p
+		style="
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		color: #85837B;"
+		&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit&lt;/p&gt;
 		</pre>
 	</div>
 
 	<div class="elements">
 		<h4>Bullet lists</h4>
-		<ul>
+		<ul style="
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		color: #85837B;">
 			<li>item1</li>
 			<li>item2</li>
 		</ul>
 		<p>Style for bullet lists</p>
 		<pre>
-		&lt;ul&gt;
+		&lt;ul
+		style="
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		color: #85837B;"
+		&gt;
 			&lt;li&gt;item1&lt;/li&gt;
 			&lt;li&gt;item2&lt;/li&gt;
 		&lt;/ul&gt;</pre>
@@ -164,13 +380,27 @@
 
 	<div class="elements">
 		<h4>Numbered lists</h4>
-		<ol>
+		<ol style="
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 31px;
+		color: #85837B;">
 			<li>item1</li>
 			<li>item2</li>
 		</ol>
 		<p>Style for numbered lists</p>
 		<pre>
-		&lt;ol&gt;
+		&lt;ol
+		style="
+		font-family: Lora;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 31px;
+		color: #85837B;"
+		&gt;
 			&lt;li&gt;item1&lt;/li&gt;
 			&lt;li&gt;item2&lt;/li&gt;
 		&lt;/ol&gt;</pre>

@@ -100,6 +100,64 @@ input{
 	background-color: #e3a6ae;
 }
 
+.eden{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #0B4841;
+}
+
+.friar_gray{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #85837B;
+}
+
+.shilo{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #E3A6AE;
+}
+
+.silver{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #BABABA;
+}
+
+.bitter{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #7E7F7A;
+}
+
+.alabaster{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #F7F7F7;
+}
+
+.nevada{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #6E7376;
+}
+
+.submarine{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-color: #B7CBCB;
+}
+
+
+
 .lightpink{
 	margin: auto;
 	width: 100px;
