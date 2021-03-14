@@ -97,32 +97,8 @@ footer{
 	grid-column: 1/13;
 }
 
-.cartGrid, .cartItem{
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	vertical-align: middle;
-}
 
-.cartItem{
-	margin-top: 10px;
-}
 
-.cartH{
-	margin-left: 40px;
-	margin-block-start: 0em;
-    margin-block-end: 0em;
-}
-
-.cartH2{
-	margin-block-start: 0em;
-    margin-block-end: 0em;
-    text-align: center;
-}
-
-.cartP{
-	margin: auto;
-	text-align: center;
-}
 
 /*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
 .mainImg{
@@ -194,7 +170,7 @@ footer{
 .midImg{
 	grid-column: 1/13;
 	margin: 0;
-	margin-top: 5em;
+	margin-top: 8em;
 }
 .single-discription{
 	grid-column: 4/9;
@@ -224,9 +200,83 @@ footer{
 	margin: auto;
 }
 
+@media screen and (max-width: 96em) {
+	.infor{
+		grid-column: 8/13;
+	}
+}
 
+/*-----------------------------------SINGLE PRODUCT 2 PAGE-------------------------------------*/
 
+.midImg2{
+	grid-column: 1/13;
+	margin: 0;
+	margin-top: 8em;
+}
 
+/*-----------------------------------CART PAGE-------------------------------------*/
+.cartC{
+	grid-column: 2/8;
+}
+.lineC{
+	grid-column: 1/6;
+}
+.cartP{
+	margin: auto;
+	text-align: center;
+}
+.cartPn{
+	grid-column: 2/3;
+    margin-top: 0em;
+}
+.rightCC{
+	grid-column: 2/3;
+}
+
+.cartGrid, .cartItem{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	vertical-align: middle;
+}
+
+.cartItem{
+	margin-top: 10px;
+}
+
+.cartH1, .cartH2, .cartH3{
+	margin-left: 40px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.cartH{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align: center;
+}
+
+.order{
+	grid-column: 9/12;
+	background: white;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+h3.or{
+	grid-column: 1/5;
+
+}
+.orderText{
+	grid-column: 1/3;
+}
+.orderPrice{
+	grid-column: 3/5;
+}
+.checkout{
+	grid-column: 1/5;
+}
+.order-submit{
+	grid-column: 1/5;
+}
 
 
 /*-----------------------------------HOME PAGE-------------------------------------*/
@@ -336,13 +386,6 @@ footer{
 	margin-bottom: 3em;
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 94em) {
 	.mainImg{
 	grid-column: 3/7;
@@ -381,9 +424,8 @@ footer{
 	grid-column: 3/7;
 	margin-top: 0em;
 	margin-left: 1em;
+	}
 }
-}
-
 
 
 
