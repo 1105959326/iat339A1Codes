@@ -186,7 +186,7 @@ h2{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 36px;
+	font-size: 3vw;
 	line-height: 39px;
 	color: #767676;
 	margin: 0;
@@ -196,7 +196,7 @@ h5{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 60px;
+	font-size: 4vw;
 	line-height: 66px;		
 	color: #7E7F7A;
 }
