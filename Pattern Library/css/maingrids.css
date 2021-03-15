@@ -253,19 +253,22 @@ footer{
 
 .order{
 	grid-column: 9/12;
-	background: white;
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 }
 h3.or{
 	grid-column: 1/5;
+	background: white;
+	margin: 0;
 
 }
 .orderText{
 	grid-column: 1/3;
+	background: white;
 }
 .orderPrice{
 	grid-column: 3/5;
+	background: white;
 }
 .checkout{
 	grid-column: 1/5;
