@@ -281,8 +281,7 @@ a.back{
 .infor{
 	margin-left: 11%;
 	position: relative;
-	top: -20px;
-
+	top: -28.5em;
 }
 
 .detailName{
@@ -346,14 +345,14 @@ a.back{
 }
 .single-submibutton{
  position :relative;
- top: -5.5em;
+top: -24.5em;
 }
 .interactB{
 	text-decoration: none;
 }
 .midImg{
 	width: 100%;
-	height: 300px;
+	height: 310px;
 	margin-bottom: 6em;
 	background-image: url(../images/cup3.jpg);
 	background-repeat: no-repeat;
@@ -445,10 +444,7 @@ h2.recommend{
 */
 @media screen and (max-width: 94em) {
 	.infor{
-	margin-left: 11%;
-	position: relative;
-	top: 25px;
-
+		top: -19.5em;
 	}
 	.mainImg{
 		width: 300px;
@@ -491,25 +487,41 @@ h2.recommend{
 		margin-left: 1em;
 	}
 }
-@media screen and (max-width: 70em) {
-	.cardName3{
-		margin-top: 24px;
+
+@media screen and (max-width: 50em) {
+	.icons2{
+		width: 10px;
+		height: 20px;
+		margin-top: 0em;
+		margin-bottom: 0em;
+		position: relative;
+		top: 4em;
 	}
 }
+
 
 @media screen and (max-width: 45em) {
 	.mainImg{
 		width: 400px;
 		height: 400px;
-
 	}
-	
+	.mainImg2{
+		top: 4em;
+	}
+	.infor{
+		top: 2em;
+	}
+	h2.name, h2.price, h3.detailName{
+		font-size: 2em;
+		margin-left: 2em;
+	}
+		
 	p.title{
 		font-size: 25px;
 	}
 	.single-submibutton{
  		position :relative;
- 		top: -11em;
+ 		top: 0em;
 	}
 	.single-submit{
 		 font-size: 30px;
@@ -532,10 +544,11 @@ h2.recommend{
 	
 }
 
+
 /*-----------------------------------SINGLE PRODUCT 2 PAGE-------------------------------------*/
 .midImg2{
 	width: 100%;
-	height: 300px;
+	height: 310px;
 	margin-bottom: 6em;
 	background-image: url(../images/p2_2.jpg);
 	background-repeat: no-repeat;
