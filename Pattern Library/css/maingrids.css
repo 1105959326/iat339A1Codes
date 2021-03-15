@@ -239,10 +239,6 @@ footer{
 	vertical-align: middle;
 }
 
-.cartItem{
-	margin-top: 10px;
-}
-
 .cartH1, .cartH2, .cartH3{
 	margin-left: 40px;
 	margin-block-start: 0em;
@@ -273,7 +269,7 @@ h3.or{
 }
 .checkout{
 	grid-column: 1/5;
-	
+
 }
 .order-submit{
 	grid-column: 1/5;

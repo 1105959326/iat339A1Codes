@@ -603,8 +603,8 @@ p.cartPn{
 
 .lineC{
 	border-bottom: 0.5px solid #BABABA;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 .order{
@@ -632,6 +632,7 @@ p.orderName{
  		top: 0em;
  		background-color: #EECECE;
  		height: 3em;
+ 		vertical-align: bottom;
 	}
 a.order-submit{
 	font-family: 'Lora', serif;
