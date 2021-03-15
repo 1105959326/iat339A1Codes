@@ -16,6 +16,7 @@ a{
 p{
 	font-family: 'Lora', serif;
 	font-size: 1em;
+	margin: 0;
 }
 
 .intext{
@@ -52,13 +53,13 @@ pre{
 
 .submit{
 	font-family: 'Lora', serif;
+	border: 1px solid #EECECE;
 	background-color: #EECECE;
 	color: #F7F7F7;
 	text-decoration: none;
 	font-size: 1.5em;
 	line-height: 2em;
 	font-weight: 700;
-	padding: 0.3rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
 }
@@ -72,25 +73,43 @@ pre{
 	font-size: 1.5em;
 	line-height: 2em;
 	color: #EECECE;
-	padding: 0.3rem;
 	padding-left: 3rem;
 	padding-right: 3rem;
+}
+
+form{
+	display: inline;
 }
 
 label{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 36px;
+	font-size: 1.5em;
 	line-height: 39px;
 	color: #7E7F7A;
+	display: inline;
 }
 
 input{
+	width: 100%;
 	background: #FFFFFF;
 	border: 1px solid #BABABA;
+	padding: 0.3em;
 	box-sizing: border-box;
 	border-radius: 5px;
+	font-family: Lora;
+	font-size: 1em;
+	display: inline;
+}
+
+.radio{
+	width: 1em;
+}
+
+.inputButton{
+	color: #FFFFFF;
+	background-color: #EECECE;
 }
 
 .eden{
@@ -386,63 +405,7 @@ h2.recommend{
 	margin-bottom: 3em;
 }
 
-/*
-.recomImg1{
-	
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/img1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	vertical-align: top;
-	
-}
-.recomImg2{
-	
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/img5.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	vertical-align: top;
-	
-}
-.recomImg3{
-	
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/img3.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	vertical-align: top;
-	
-}
-.recomImg4{
-	
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/img4.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	vertical-align: top;
-	
-}
-.recomImg5{
-	
-	width: 200px;
-	height: 200px;
-	background-image: url(../images/cartItem1.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	vertical-align: top;
-	
-}
-*/
+
 @media screen and (max-width: 94em) {
 	.infor{
 	margin-left: 11%;
