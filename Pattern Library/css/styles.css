@@ -643,14 +643,14 @@ p.orderName{
 }
 .checkout{
  		position :relative;
- 		top: 0em;
- 		background-color: #EECECE;
+ 		top: 0em; 		
  		height: 3em;
  		vertical-align: bottom;
 	}
 a.order-submit{
-	font-family: 'Lora', serif;
+	font-family: 'Lora', serif;	
 	color: #F7F7F7;
+	background-color: #EECECE;
  	text-decoration: none;
  	font-size: 24px;
 	font-weight: 700;
