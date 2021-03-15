@@ -273,9 +273,11 @@ h3.or{
 }
 .checkout{
 	grid-column: 1/5;
+	
 }
 .order-submit{
 	grid-column: 1/5;
+	align-items: center;
 }
 
 
