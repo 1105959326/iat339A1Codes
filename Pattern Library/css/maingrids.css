@@ -257,26 +257,30 @@ footer{
 
 .order{
 	grid-column: 9/12;
-	background: white;
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 }
 h3.or{
 	grid-column: 1/5;
+	margin: 0;
+	text-align: center;
+	padding-top: 1em;
+	background: white;
 
 }
 .orderText{
 	grid-column: 1/3;
+	background: white;
 }
 .orderPrice{
 	grid-column: 3/5;
+	background: white;
 }
 .checkout{
 	grid-column: 1/5;
-	
+	vertical-align: bottom;
 }
 .order-submit{
-	grid-column: 1/5;
 	align-items: center;
 }
 
