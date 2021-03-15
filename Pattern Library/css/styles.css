@@ -280,15 +280,13 @@ a.back{
 
 .infor{
 	margin-left: 11%;
-	position: relative;
-	top: -28.5em;
 }
 
 .detailName{
 	margin-top: 5em;
 }
 
-.mainImg{
+.mainImgSize{
 	width: 445px;
 	height: 445px;
 }
@@ -446,7 +444,7 @@ h2.recommend{
 	.infor{
 		top: -19.5em;
 	}
-	.mainImg{
+	.mainImgSize{
 		width: 300px;
 		height: 300px;
 	}
