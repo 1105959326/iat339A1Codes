@@ -240,6 +240,7 @@ footer{
 .pinkRec{
 	grid-column: 7/11;
 	margin: 0;
+	margin-left: -1em;
 }
 
 .third{
@@ -264,8 +265,8 @@ footer{
 }
 
 .sub{
-	grid-column: 8/13;
-	margin-top:26em;
+	grid-column: 7/9;
+	text-align: right;
 }
 
 
@@ -317,6 +318,8 @@ h3.or{
 	grid-column: 1/5;
 	background: white;
 	margin: 0;
+	text-align: center;
+	padding-top: 1em;
 
 }
 .orderText{
@@ -375,10 +378,8 @@ footer{
 
 /*-----------------------------------multi PAGE-------------------------------------*/
 .headingPosition{
-	grid-column: 1/6;
-	height: 1em;
-	text-align: center;
-	margin-left: 5em;
+
+	margin-left: 9%;
 	position: absolute;
 	top: 0em;
 }
