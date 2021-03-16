@@ -355,8 +355,7 @@ top: -24.5em;
 	background-image: url(../images/cup3.jpg);
 	background-repeat: no-repeat;
 	background-position: center top +71%;
-	background-size: cover;
-		
+	background-size: cover;		
 }
 
 a.icon1{
@@ -487,14 +486,14 @@ h2.recommend{
 }
 
 @media screen and (max-width: 50em) {
-	.icons2{
-		width: 10px;
-		height: 20px;
-		margin-top: 0em;
-		margin-bottom: 0em;
-		position: relative;
-		top: 4em;
+	.miniImgs{
+		margin-left: 1em;
 	}
+	.single-submit{
+		margin-left: 5.5em;
+		
+	}
+
 }
 
 
@@ -538,8 +537,6 @@ h2.recommend{
 	.cardName3{
 		margin-top: 0px;
 	}
-
-	
 }
 
 
@@ -551,8 +548,7 @@ h2.recommend{
 	background-image: url(../images/p2_2.jpg);
 	background-repeat: no-repeat;
 	background-position: center top +75%;
-	background-size: cover;
-		
+	background-size: cover;	
 }
 
 /*-----------------------------------SINGLE PRODUCT 3 PAGE-------------------------------------*/
@@ -564,8 +560,7 @@ h2.recommend{
 	background-image: url(../images/plate4.jpg);
 	background-repeat: no-repeat;
 	background-position: center top +75%;
-	background-size: cover;
-		
+	background-size: cover;		
 }
 
 /*-----------------------------------CART PAGE-------------------------------------*/
