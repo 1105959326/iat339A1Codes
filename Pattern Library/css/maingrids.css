@@ -378,7 +378,7 @@ footer{
 
 /*-----------------------------------multi PAGE-------------------------------------*/
 .headingPosition{
-
+	height:1em;
 	margin-left: 9%;
 	position: absolute;
 	top: 0em;
@@ -583,6 +583,10 @@ footer{
 	.single-submit{
 		grid-column: 2/4;
 	}
+
+	.headingPosition{
+		margin-top: 1em;
+	}
 }
 
 
@@ -626,6 +630,32 @@ footer{
 	}
 	.second{
 		height: 90em;
+	}
+
+	.filter{
+		grid-column: 1/4;
+		padding-left: 0px;
+	}
+
+	.informationGrid{
+		grid-column: 2/12;
+		border:none;
+	}
+
+	.discountGrid{
+		grid-column: 2/12;
+	}
+
+	.contactGrid{
+		margin-right: 0;
+	}
+
+	.promoGrid{
+		margin: 0;
+	}
+
+	.headingPosition{
+		margin-top: 2em;
 	}
 }
 
