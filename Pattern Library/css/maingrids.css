@@ -86,22 +86,9 @@ header{
 	height: 30em;
 }
 
-.third{
-	margin-top: 0em;
-	background-color: #EECECE;
-	grid-column: 1/13;
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-column-gap: 1em;
-	align-items: center;
-	height: 30em;
-	margin: 0;
-	
 
-	
-	
-	
-}
+
+
 
 .cardView{
 	display: grid;
@@ -239,6 +226,45 @@ footer{
 	margin: 0;
 	margin-top: 8em;
 }
+
+/*-----------------------------------Q&A-------------------------------------*/
+
+
+.QAImg{
+	grid-column: 5/7;
+	margin: 0;
+	margin-top: 0em;
+	z-index:10;
+}
+
+.pinkRec{
+	grid-column: 7/11;
+	margin: 0;
+}
+
+.third{
+	margin-top: 0em;
+	background-color: #B7CBCB;
+	grid-column: 1/13;
+	height: 30em;
+	margin: 0;	
+	display:grid;
+	grid-template-columns: repeat(12, 1fr);
+	align-items: center;
+}
+
+.forth{
+	margin-top: 0em;
+	grid-column: 1/13;
+	height: 30em;
+	margin: 0;	
+	display:grid;
+	grid-template-columns: repeat(12, 1fr);
+
+}
+
+
+
 
 /*-----------------------------------CART PAGE-------------------------------------*/
 .cartC{
