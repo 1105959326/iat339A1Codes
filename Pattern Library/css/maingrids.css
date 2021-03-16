@@ -88,8 +88,8 @@ header{
 
 .third{
 	margin-top: 0em;
-	background-color: #B7CBCB;
-	/*grid-column: 1/13;*/
+	background-color: #EECECE;
+	grid-column: 1/13;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-column-gap: 1em;
