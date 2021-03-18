@@ -68,8 +68,8 @@ pre{
 	color: white;
 	margin-left: 3em;
 	margin-right: 3em;
-	margin-top: -9em;
-	margin-bottom: 8em;
+	margin-top: -60%;
+	margin-bottom: 50%;
     border: solid 2px white;
     opacity: 0;
     transition: opacity .35s ease;
@@ -301,10 +301,14 @@ ul, ol{
 
 .title, .titleFooter{
 	font-family: 'Sacramento';
-	font-size: 40px;
+	font-size: 3vw;
 	margin-top: 0%;
-	margin-left: 3%;
 	color: white;
+	text-align: left;
+}
+
+.titleFooter{
+	font-size: 4vw;
 }
 
 .title:visited{
@@ -317,8 +321,8 @@ body{
 
 .suggestImg{
 	margin: auto;
-	height: 252px;
-	width: 252px;
+	height: 100%;
+	width: 100%;
 	background-color: white;
 }
 
@@ -685,10 +689,6 @@ p.orderN{
 }
 
 .titleFooter{
-	font-size:4.5em;
-	margin: 0;
-	margin-left: 0.5em;
-	line-height: 0em;
 }
 
 .inforInput{
@@ -738,10 +738,6 @@ p.orderN{
 		width: 50px;
 		height: 50px;
 		margin-top: 0em;
-	}
-	.suggestImg{
-		width: 150px;
-		height: 150px;
 	}
 	.mainImg2{
 		margin-left: 1em;
