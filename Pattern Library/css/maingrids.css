@@ -314,21 +314,24 @@ footer{
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 }
+
 h3.or{
 	grid-column: 1/5;
 	background: white;
 	margin: 0;
 	text-align: center;
-	padding-top: 1em;
+	padding-top: 0.3em;
 
 }
 .orderText{
 	grid-column: 1/3;
 	background: white;
+	margin-top: -7em;
 }
 .orderPrice{
 	grid-column: 3/5;
 	background: white;
+	margin-top: -7em;
 }
 .checkout{
 	grid-column: 1/5;
@@ -366,7 +369,7 @@ footer{
 }
 
 .footer{
-	grid-column: 1/10;
+	grid-column: 2/10;
 	padding-top: 2em;
 }
 

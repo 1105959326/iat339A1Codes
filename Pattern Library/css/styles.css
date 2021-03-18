@@ -16,6 +16,7 @@ a{
 p{
 	font-family: 'Lora', serif;
 	font-size: 1em;
+	color: #6E7376;
 }
 
 .intext{
@@ -55,6 +56,44 @@ pre{
 	padding: 0.3em;
 	padding-left: 2em;
 	padding-right: 2em;
+}
+
+.buttonImg, .buttonItem{
+ 	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1em;
+	text-align: center;
+	padding: 0.3em;
+	color: white;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: -9em;
+	margin-bottom: 8em;
+    border: solid 2px white;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.card:hover .buttonImg{
+	opacity: 1;
+}
+
+.buttonItem{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: -50%;
+	margin-bottom: 40%;
+}
+
+.itemDisplay:hover .buttonItem{
+	opacity: 1;
+}
+
+.button:hover{
+	background-color: #F7F7F7;
+	color: #E3A6AE;
+	border: 1px solid #E3A6AE;
 }
 
 .submit{
@@ -210,7 +249,7 @@ h2{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	line-height: 39px;
 	color: #767676;
 	margin: 0;
@@ -220,7 +259,7 @@ h5{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 4vw;
+	font-size: 3vw;
 	line-height: 66px;		
 	color: #7E7F7A;
 }
@@ -528,7 +567,7 @@ h2.recommend{
 
 .cartGrid{
 	border-bottom: 0.5px solid #BABABA;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 
 p.cartP{
@@ -766,11 +805,15 @@ p.orderN{
 		grid-column: 1/4;
 	}
 
-	h2{
+	h5{
 		font-size: 2.5em;
 	}
 
-	p{
+	h2{
+		font-size: 1.5em;
+	}
+
+	p, p.footer{
 		font-size: 1em;
 	}
 
