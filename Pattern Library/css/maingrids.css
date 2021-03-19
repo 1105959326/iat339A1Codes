@@ -167,7 +167,7 @@ footer{
 	grid-column: 9/13;
     align-self: center;
    
-}
+	}x
 .numb{
 	grid-column: 3/5;
 }
@@ -333,6 +333,11 @@ footer{
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 }
+.gift{
+	grid-column: 9/12;
+
+	
+}
 
 h3.or{
 	grid-column: 1/5;
@@ -354,7 +359,9 @@ h3.or{
 }
 .checkout{
 	grid-column: 1/5;
-
+}
+.gift{
+	grid-column: 1/5;
 }
 .order-submit{
 	grid-column: 1/5;

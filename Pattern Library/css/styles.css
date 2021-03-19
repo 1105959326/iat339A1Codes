@@ -333,11 +333,14 @@ body{
 
 
 .number{
-	margin: auto;
-	width: 3rem;
-	height: 1.5rem;
+	margin-left: 1rem;
+	width: 1rem;
+	height: 1rem;
 	text-align: center;
+	display:inline-block;
 }
+
+
 
 /*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
 
@@ -603,6 +606,12 @@ p.cartPn{
 	margin-bottom: 1.5em;
 }
 
+.lineS{
+	border-bottom: 0.5px solid #BABABA ;
+	margin-top: 0em;
+	margin-bottom: 0em ;
+}
+
 .order{
 	margin-top: 8em;	
 }
@@ -621,8 +630,17 @@ p.orderName{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.3vw;
+	font-size: 1.2vw;
 }
+
+p.gift{
+	margin-left: 3.5em;
+	margin-bottom: 0 em;
+	margin-top: -1.5em;
+	font-family: Lora;
+	font-size: 0.9vw;
+}
+
 .checkout{
 	background-color: #B7CBCB;
  	position :relative;
