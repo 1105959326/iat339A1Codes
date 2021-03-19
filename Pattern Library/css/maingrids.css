@@ -702,7 +702,18 @@ footer{
 		grid-column: 2/12;
 	}
 
-	
+	.orderText, .orderPrice{
+		margin-top: 0;
+	}
+	h3.or{
+		font-size: 2em;
+		height: 2em;
+	}
+
+	.checkForm{
+		margin-top: -15em;
+		height: 17em;
+	}
 }
 
 @media screen and (max-width: 40em) {
