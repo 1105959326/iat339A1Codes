@@ -262,7 +262,6 @@ h5{
 	font-size: 3vw;
 	line-height: 66px;		
 	color: #7E7F7A;
-	margin: 0;
 }
 
 h3{
@@ -335,15 +334,10 @@ body{
 
 .number{
 	margin: auto;
-	width: 1rem;
-	height: 1rem;
-	align-self: center;
+	width: 3rem;
+	height: 1.5rem;
+	text-align: center;
 }
-
-.checkbox{
-	display: inline-block;
-}
-
 
 /*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
 
@@ -440,15 +434,11 @@ a.icon1{
 	height: 32px;
 }
 
-.single-discription-title{
-	margin-top: 2em;
-}
-
 .single-discription{
-	margin-top: 1em;
+	margin-top: 4em;
 }
 .single-discription2{
-	margin-top: 0em;
+	margin-top: 3em;
 }
 
 .recommend{
@@ -533,17 +523,15 @@ h2.recommend{
 }
 	
 .aboutP{
-	margin: auto;
+	margin-left:3em;
+	margin-right:3em;
 	margin-top:4em;
-	max-width: 60%;
-	position: relative;
-	left: 15%;
+	font-size: 1.5em;
+
 }
 	
 .feedback{
 	margin-top:4em;
-	grid-column: 3/5;
-
 }
 
 /*-----------------------------------CART PAGE-------------------------------------*/
@@ -590,6 +578,7 @@ p.cartP{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
+	font-size: 1vw;
 	line-height: 20px;
 	color: #85837B;
 }
@@ -597,7 +586,8 @@ p.cartPn{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-		line-height: 20px;
+	font-size: 1.3vw;
+	line-height: 20px;
 	color: #85837B;
 }
 
@@ -606,10 +596,9 @@ p.cartPn{
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
-
 .lineS{
-	border-bottom: 0.5px solid #BABABA ;
-	margin-top: 0em;
+	border-bottom: 0.5px solid #BABABA;
+	margin-top: 5em;
 	margin-bottom: 0em ;
 }
 
@@ -631,14 +620,8 @@ p.orderName{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
+	font-size: 1.3vw;
 }
-
-p.gift{
-	margin-left: 0em;
-	font-family: Lora;
-	display: inline-block;
-}
-
 .checkout{
 	background-color: #B7CBCB;
  	position :relative;
@@ -664,6 +647,7 @@ p.orderN{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
+	font-size: 1.3vw;
 
 }
 
@@ -716,9 +700,8 @@ p.orderN{
 	width: 100%;
 }
 
-.aboutPText{
-	font-size: 1em;
-}
+
+
 
 
 
@@ -764,8 +747,21 @@ p.orderN{
 	.mainImg2{
 		margin-left: 1em;
 	}
+
+	.aboutP{
+		margin-left: 4em;
+	}
+	.pinkRec{
+		margin-left: 7em;
+	}
 	.rightCC{
 		margin-left: 1em;
+	}
+}
+
+@media screen and (max-width: 80em) {
+	.aboutP{
+		margin-left: 6em;
 	}
 }
 
@@ -780,10 +776,23 @@ p.orderN{
 		font-size: 1.5em;
 	}
 
-	.submit{
+		.submit{
 		font-size: 1em;
 		padding-left: 2em;
 		padding-right: 2em;
+	}
+
+	.QAImg{
+		width: 200px;
+		height: auto;
+	}
+	.pinkRec{
+		width: 300px;
+		height: 300px;
+	}
+	.aboutP{
+		margin-left: 4em;
+		margin-top: 2em; 
 	}
 
 
@@ -859,6 +868,10 @@ p.orderN{
 		padding-right: 2em;
 	}
 
+	.QAImg{
+		width: 180px;
+		height: auto;
+	}
 	.aboutP{
 		margin-left: 3em;
 		
