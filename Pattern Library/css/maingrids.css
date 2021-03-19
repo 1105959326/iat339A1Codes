@@ -177,11 +177,20 @@ footer{
 	margin: 0;
 	margin-top: 8em;
 }
+
+.single-discription-title{
+	grid-column: 2/7;
+}
+
+.single-discription-title{
+	grid-column: 4/9;
+}
+
 .single-discription{
 	grid-column: 4/9;
 }
 .single-discription2{
-	grid-column: 7/12;
+	grid-column: 5/10;
 }
 
 .recommend{
