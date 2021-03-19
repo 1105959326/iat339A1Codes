@@ -409,12 +409,11 @@ footer{
 }
 
 /*-----------------------------------multi PAGE-------------------------------------*/
-.headingPosition{
-	height:1em;
-	margin-left: 9%;
-	position: absolute;
-	top: 2%;
+.headingPosition, .headingPositionC{
+	margin: 0;
+	grid-column: 2/4;
 }
+
 
 .filter{
 	grid-column: 1/3;
@@ -621,10 +620,6 @@ footer{
 		grid-column: 2/4;
 	}
 
-	.headingPosition{
-		margin-top: 1em;
-	}
-
 
 }
 
@@ -693,10 +688,6 @@ footer{
 		margin: 0;
 	}
 
-	.headingPosition{
-		margin-top: 2em;
-	}
-
 	.sub{
 		grid-column: 6/8;
 	}
@@ -710,6 +701,15 @@ footer{
 }
 
 @media screen and (max-width: 40em) {
+	.test{
+		vertical-align: middle;
+	}
+
+	.about{
+		margin-right: 1em;
+		margin-top: 1em;
+	}
+
 	.QAImg{
 		width: 30%;
 	}
