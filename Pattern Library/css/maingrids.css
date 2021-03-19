@@ -559,6 +559,10 @@ footer{
 	position: relative;
 	top: -2em;
 	}
+
+	.pinkRec{
+		margin-left: 0em;
+
 }
 
 
@@ -580,6 +584,19 @@ footer{
 		margin: 0;
 		padding-left: 1em;
 	}
+
+	.submit{
+		grid-column: 7/8;
+	}
+	.QAImg{
+		grid-column: 4/6;
+	}
+	.pinkRec{
+		grid-column: 6/11;
+	}
+	.aboutP{
+		margin-left: 8em;
+	}
 }
 
 @media screen and (max-width: 50em) {
@@ -589,6 +606,13 @@ footer{
 
 	.headingPosition{
 		margin-top: 1em;
+	}
+	.QAImg{
+		grid-column: 4/6;
+	}
+	.aboutP{
+		margin-left: 5em;
+		margin-top: 2em; 
 	}
 }
 
@@ -659,6 +683,23 @@ footer{
 
 	.headingPosition{
 		margin-top: 2em;
+	}
+
+	.sub{
+		grid-column: 6/8;
+	}
+	.QAImg{
+		grid-column: 2/4;
+	}
+	.pinkRec{
+		grid-column: 5/10;
+	}
+	.order{
+		grid-column: 2/12;
+		line-height: 500px;
+	}
+	.cartC{
+		grid-column: 2/12;
 	}
 }
 
