@@ -334,13 +334,15 @@ body{
 
 
 .number{
-	margin-left: 1rem;
+	margin: auto;
 	width: 1rem;
 	height: 1rem;
-	text-align: center;
-	display:inline-block;
+	align-self: center;
 }
 
+.checkbox{
+	display: inline-block;
+}
 
 
 /*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
@@ -588,7 +590,6 @@ p.cartP{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1vw;
 	line-height: 20px;
 	color: #85837B;
 }
@@ -596,8 +597,7 @@ p.cartPn{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.3vw;
-	line-height: 20px;
+		line-height: 20px;
 	color: #85837B;
 }
 
@@ -631,15 +631,12 @@ p.orderName{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.2vw;
 }
 
 p.gift{
-	margin-left: 3.5em;
-	margin-bottom: 0 em;
-	margin-top: -1.5em;
+	margin-left: 0em;
 	font-family: Lora;
-	font-size: 0.9vw;
+	display: inline-block;
 }
 
 .checkout{
@@ -667,7 +664,6 @@ p.orderN{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.2vw;
 
 }
 

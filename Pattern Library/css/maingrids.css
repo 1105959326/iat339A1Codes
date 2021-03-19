@@ -343,11 +343,7 @@ footer{
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 }
-.gift{
-	grid-column: 9/12;
 
-	
-}
 
 h3.or{
 	grid-column: 1/5;
@@ -705,6 +701,8 @@ footer{
 	.cartC{
 		grid-column: 2/12;
 	}
+
+	
 }
 
 @media screen and (max-width: 40em) {
