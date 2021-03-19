@@ -529,9 +529,9 @@ h2.recommend{
 .aboutP{
 	margin: auto;
 	margin-top:4em;
-	margin-left: 10em;
 	max-width: 60%;
-
+	position: relative;
+	left: 15%;
 }
 	
 .feedback{
@@ -701,8 +701,9 @@ p.orderN{
 	width: 100%;
 }
 
-
-
+.aboutPText{
+	font-size: 1em;
+}
 
 
 
