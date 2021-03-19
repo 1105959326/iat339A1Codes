@@ -343,11 +343,7 @@ footer{
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 }
-.gift{
-	grid-column: 9/12;
 
-	
-}
 
 h3.or{
 	grid-column: 1/5;
@@ -704,6 +700,19 @@ footer{
 	}
 	.cartC{
 		grid-column: 2/12;
+	}
+
+	.orderText, .orderPrice{
+		margin-top: 0;
+	}
+	h3.or{
+		font-size: 2em;
+		height: 2em;
+	}
+
+	.checkForm{
+		margin-top: -15em;
+		height: 17em;
 	}
 }
 
