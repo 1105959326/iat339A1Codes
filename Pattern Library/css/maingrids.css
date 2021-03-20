@@ -145,7 +145,12 @@ footer{
 	
 }
 .name{
-	grid-column: 1/6;
+	grid-column: 1/11;
+	margin-block-start: 0;
+	text-align: left; 
+}
+.namePS{
+	grid-column: 8/11;
 	margin-block-start: 0;
 	text-align: left; 
 }
