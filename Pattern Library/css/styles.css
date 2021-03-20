@@ -707,7 +707,7 @@ p.orderN{
 	margin-bottom: 0;
 }
 
-.inforInput{
+.inforInput, .inputButton{
 	width: 100%;
 	height:2em;
 }
