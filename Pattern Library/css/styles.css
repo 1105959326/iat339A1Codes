@@ -262,6 +262,7 @@ h5{
 	font-size: 3vw;
 	line-height: 66px;		
 	color: #7E7F7A;
+	margin:0;
 }
 
 h3{
@@ -337,6 +338,10 @@ body{
 	width: 3rem;
 	height: 1.5rem;
 	text-align: center;
+}
+
+.checkbox{
+	display: inline-block;
 }
 
 /*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
@@ -518,7 +523,6 @@ h2.recommend{
 
 }
 
-
 .about{
 	text-align:right;
 	margin-right:3em;
@@ -526,15 +530,17 @@ h2.recommend{
 }
 	
 .aboutP{
-	margin-left:3em;
-	margin-right:3em;
+	margin: auto;
 	margin-top:4em;
-	font-size: 1.5em;
+	max-width: 60%;
+	position: relative;
+	left: 15%;
 
 }
 	
 .feedback{
 	margin-top:4em;
+	grid-column: 3/5;
 }
 
 /*-----------------------------------CART PAGE-------------------------------------*/
@@ -671,6 +677,11 @@ p.orderN{
 	font-size: 1.5em;
 }
 
+.setHeading{
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
 .loglineA{
 	font-family: 'Arapey', serif;
 	font-style: italic;
@@ -696,15 +707,14 @@ p.orderN{
 	margin-bottom: 0;
 }
 
-.titleFooter{
-}
-
 .inforInput{
 	width: 100%;
 }
 
 
-
+.aboutPText{
+	font-size: 1em;
+}
 
 
 
@@ -750,13 +760,6 @@ p.orderN{
 	.mainImg2{
 		margin-left: 1em;
 	}
-
-	.aboutP{
-		margin-left: 4em;
-	}
-	.pinkRec{
-		margin-left: 7em;
-	}
 	.rightCC{
 		margin-left: 1em;
 	}
@@ -779,26 +782,11 @@ p.orderN{
 		font-size: 1.5em;
 	}
 
-		.submit{
+	.submit{
 		font-size: 1em;
 		padding-left: 2em;
 		padding-right: 2em;
 	}
-
-	.QAImg{
-		width: 200px;
-		height: auto;
-	}
-	.pinkRec{
-		width: 300px;
-		height: 300px;
-	}
-	.aboutP{
-		margin-left: 4em;
-		margin-top: 2em; 
-	}
-
-
 }
 
 
@@ -871,13 +859,8 @@ p.orderN{
 		padding-right: 2em;
 	}
 
-	.QAImg{
-		width: 180px;
-		height: auto;
-	}
 	.aboutP{
 		margin-left: 3em;
-		
 	}
 
 	.order{
