@@ -551,6 +551,7 @@ footer{
 	display:inline;
 	text-align: center;
 	padding-left: 1em;
+	margin-bottom: 2em;
 }
 
 
@@ -616,7 +617,7 @@ footer{
 		padding-left: 1em;
 	}
 
-	.submit{
+	.reset, .submit{
 		grid-column: 7/8;
 	}
 
