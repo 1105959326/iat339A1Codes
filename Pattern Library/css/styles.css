@@ -102,12 +102,12 @@ pre{
 	border: 1px solid #EECECE;
 	color: #F7F7F7;
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	line-height: 2em;
 	font-weight: 700;
-	padding: 0.3rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding: 0.3vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
 }
 
 .reset{
@@ -404,6 +404,15 @@ a.back{
 	border-radius: 90px;
 	display:inline-block;
 }
+.name{
+	font-size: 2.5vw;
+}
+.price{
+	font-size: 2.5vw;
+}
+.miniImg1{
+	margin-left: 1vw;
+}
 
 
 .single-submit{
@@ -411,11 +420,11 @@ a.back{
  background-color: #EECECE;
  color: #F7F7F7;
  text-decoration: none;
- font-size: 24px;
+ font-size: 2vw;
  font-weight: 700;
- padding: 0.3em;
- padding-left: 3em;
- padding-right: 3em;
+ padding: 0.3vw;
+ padding-left: 3vw;
+ padding-right: 3vw;
 }
 .single-submibutton{
  position :relative;
@@ -456,6 +465,7 @@ h2.recommend{
 
 .namePS{
 	font-size: ;
+	top: -20em;
 }
 .line{
 	border-bottom: 1px solid #85837B;
@@ -724,7 +734,7 @@ p.orderN{
 
 @media screen and (max-width: 94em) {
 	.infor{
-		top: -19.5em;
+		top: -10em;
 	}
 	.mainImgSize{
 		width: 300px;
@@ -772,13 +782,29 @@ p.orderN{
 		margin-left: 6em;
 	}
 }
+@media screen and (max-width:63em) {
+	.submit{
+		padding-left: 0.5vw;
+		padding-right: 0.5vw;
+	}
+}
+@media screen and (max-width: 56em) {
+	
+	.namePS{
+		margin-left: 15%;
+	}
+	.submit{
+		padding-left: 1vw;
+		padding-right: 1vw;
+	}
+}
 
 @media screen and (max-width: 50em) {
 	.miniImgs{
 		margin-left: 1em;
 	}
 	.single-submit{
-		margin-left: 5.5em;
+		margin-left: 1vw;
 	}
 	.h5{
 		font-size: 1.5em;
