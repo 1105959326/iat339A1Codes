@@ -454,7 +454,7 @@ footer{
 	margin: 0.3em;
 	text-align: right;
 	padding-right: 1em;
-	margin-left: 2em;
+	margin-left: 0.6vw;
 	margin-top: 0.6em;
 }
 
@@ -612,6 +612,25 @@ footer{
 
 }
 
+@media screen and (max-width: 87em) {
+	.filter{
+		grid-column: 2/13;
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+
+	}
+	.filterDiv{
+		display: block;
+	}
+	.checkFormp{
+		display: inline-block;
+	}
+	.filtertext{
+		display: inline-block;
+		font-size: 1.4vw;
+	}
+}
+
 @media screen and (max-width: 72em) {
 	.namePS{
 		grid-column: 7/11;
@@ -718,7 +737,7 @@ footer{
 	}
 
 	.filter{
-		grid-column: 1/4;
+		grid-column: 1/13;
 		padding-left: 0px;
 	}
 
