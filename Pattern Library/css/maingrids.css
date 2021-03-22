@@ -125,6 +125,7 @@ footer{
 	grid-column: 8/11;
 	display: grid;
 	margin: 0;
+	margin-top: -10em;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 2rem 10rem 10rem;
 	
@@ -152,6 +153,7 @@ footer{
 .namePS{
 	grid-column: 8/11;
 	margin-block-start: 0;
+	margin-top: -10em;
 	text-align: left; 
 }
 
@@ -570,10 +572,10 @@ footer{
 	}
 
 	.infor{
-	grid-column: 8/11;
+	grid-column: 7/10;
 	height: -90px;
 	display: grid;
-	margin: 0;
+	margin-top: 0em;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 2rem 6rem 10rem;
 	}
@@ -604,10 +606,19 @@ footer{
 	top: -2em;
 	}
 
+	.namePS{
+		grid-column: 7/11;
+	}
 
 }
 
-@media screen and (max-width:63em){
+@media screen and (max-width: 72em) {
+	.namePS{
+		grid-column: 7/11;
+	}
+}
+
+@media screen and (max-width:63em) {
 	.setImg{
 		margin: 1em;
 		width: 30em;
@@ -628,12 +639,36 @@ footer{
 		grid-column: 7/8;
 	}
 
+	.namePS{
+		grid-column: 7/11;
+	}
+	.infor{
+		grid-column: 7/11;
+		margin-left: 11%;
+	}
+
+
 	
+}
+
+@media screen and (max-width: 56em) {
+	.infor{
+		margin-left: 15%;
+		grid-column: 7/13;
+	}
+	.namePS{
+		margin-left: 5%;
+		grid-column: 8/12;
+	}
 }
 
 @media screen and (max-width: 50em) {
 	.single-submit{
 		grid-column: 2/4;
+	}
+	.infor{
+		margin-left: 5%;
+		grid-column: 8/13;
 	}
 
 
