@@ -110,18 +110,27 @@ pre{
 	padding-right: 3vw;
 }
 
+.submit:hover{
+	background-color: #F7F7F7;
+	border: 1px solid #EECECE;
+}
+
 .reset{
 	background: #F7F7F7;
 	border: 1px solid #EECECE;
 	font-family: Lora;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.5vw;
 	line-height: 2em;
 	color: #EECECE;
-	padding: 0.3rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding: 0.3vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+.reset:hover{
+	background-color: #EECECE;
 }
 
 label{
@@ -416,19 +425,24 @@ a.back{
 
 
 .single-submit{
- font-family: 'Lora', serif;
- background-color: #EECECE;
- color: #F7F7F7;
- text-decoration: none;
- font-size: 2vw;
- font-weight: 700;
- padding: 0.3vw;
- padding-left: 3vw;
- padding-right: 3vw;
+ 	font-family: 'Lora', serif;
+	background-color: #EECECE;
+	border: 2px solid #EECECE;
+ 	color: #F7F7F7;
+ 	text-decoration: none;
+ 	font-size: 2vw;
+ 	font-weight: 700;
+ 	padding: 0.3vw;
+	padding-left: 3vw;
+ 	padding-right: 3vw;
+}
+
+.single-submit:hover{
+	border: 2px solid grey;
 }
 .single-submibutton{
- position :relative;
-top: -24.5em;
+ 	position :relative;
+	top: -24.5em;
 }
 .interactB{
 	text-decoration: none;
@@ -522,7 +536,7 @@ h2.recommend{
 	width: 100%;
 	height: 300px;
 	background-color:#FFFFFF;
-	border:1px solid #85837b;
+	border:1px solid #EECECE;
 	
 }
 
@@ -646,19 +660,28 @@ p.orderName{
 	background-color: #B7CBCB;
  	position :relative;
  	top: 0em; 		
- 	height: 3em;
+ 	height: 2.5em;
  	vertical-align: bottom;
 }
 
 a.order-submit{
 	font-family: 'Lora', serif;	
-	color: #F7F7F7;
-	background-color: #EECECE;
  	text-decoration: none;
  	font-size: 24px;
 	font-weight: 700;
 	text-align: center;
-	}
+	color: #6E7376;
+	width: 100%;
+}
+
+.checkout:hover{
+	background-color: #6E7376;
+}
+
+.checkout:hover a.order-submit{
+	color: #EECECE;
+}
+
 p.orderN{
 	text-align: right;
 	margin-right: 1em;
@@ -783,7 +806,7 @@ p.orderN{
 	}
 }
 @media screen and (max-width:63em) {
-	.submit{
+	.submit, .reset{
 		padding-left: 0.5vw;
 		padding-right: 0.5vw;
 	}
@@ -793,7 +816,7 @@ p.orderN{
 	.namePS{
 		margin-left: 15%;
 	}
-	.submit{
+	.reset, .submit{
 		padding-left: 1vw;
 		padding-right: 1vw;
 	}
@@ -899,5 +922,8 @@ p.orderN{
 		margin-bottom: 1em;
 	}
 
+	p.orderName, p.orderN{
+		font-size: 0.8em;
+	}
 }
 

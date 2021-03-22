@@ -73,6 +73,7 @@ header{
 
 .main{
 	grid-column: 1/13;
+	margin-top: -4.2em;
 }
 
 .second{
@@ -372,8 +373,10 @@ h3.or{
 }
 .checkout{
 	grid-column: 1/5;
+	text-align: center;
 }
 .gift{
+	display: inline-block;
 	grid-column: 1/5;
 	
 }
@@ -383,6 +386,7 @@ h3.or{
 }
 .lineS{
 	grid-column: 1/5;
+	margin-bottom: 0.5em;
 }
 
 /*-----------------------------------HOME PAGE-------------------------------------*/
@@ -425,6 +429,7 @@ footer{
 .headingPosition, .headingPositionC{
 	margin: 0;
 	grid-column: 2/4;
+	z-index: 10;
 }
 
 
@@ -617,7 +622,8 @@ footer{
 		grid-column: 2/13;
 		display: grid;
 		grid-template-columns: repeat(5, 1fr);
-
+		margin-left: 0;	
+		padding-left: 0;
 	}
 	.filterDiv{
 		display: block;
@@ -628,6 +634,12 @@ footer{
 	.filtertext{
 		display: inline-block;
 		font-size: 1.4vw;
+	}
+	.itemGrid{
+		grid-column: 2/12;
+	}
+	.buttonGrid{
+		grid-column: 2/12;
 	}
 }
 
@@ -728,6 +740,9 @@ footer{
 	.special{
 		padding: 0;
 		margin: auto;
+		font-size: 2.5em;
+		margin-top: -0.5em;
+		margin-bottom: -0.5em;
 		transform: rotate(-90deg);
 		grid-column: 3/4;
 		align-items: center;
@@ -788,6 +803,11 @@ footer{
 		vertical-align: middle;
 	}
 
+	.filtertext{
+		display: inline-block;
+		font-size: 0.7em;
+	}
+
 	.about{
 		margin-right: 1em;
 		margin-top: 1em;
@@ -798,7 +818,7 @@ footer{
 	}
 
 	.pinkRec{
-		width: 50%;
+		width: 65%;
 		height: 40%;
 	}
 	
