@@ -671,7 +671,7 @@ footer{
 	}
 
 	.namePS{
-		grid-column: 7/11;
+		grid-column: 8/11;
 	}
 	.infor{
 		grid-column: 7/11;
@@ -688,8 +688,9 @@ footer{
 		grid-column: 7/13;
 	}
 	.namePS{
-		margin-left: 5%;
-		grid-column: 8/12;
+		margin-left: 0%;
+		margin-top: -10em;
+		
 	}
 }
 
@@ -726,7 +727,8 @@ footer{
 		grid-column: 3/10;
 	}
 	.details{
-		margin-right: 3em;
+		margin-right: 0em;
+		grid-column: 1/4;
 	}
 	.single-submibutton{
 		grid-column: 5/10;
@@ -796,6 +798,13 @@ footer{
 		margin-top: -15em;
 		height: 17em;
 	}
+
+	.namePS{
+		margin-left: 0%;
+		margin-top: 0em;
+		grid-column: 3/11;
+		
+	}
 }
 
 @media screen and (max-width: 40em) {
@@ -834,12 +843,23 @@ footer{
 	.feedback{
 		grid-column: 2/10;
 	}
+
+	.details{
+		margin-right: 0em;
+		grid-column: 1/5;
+	}
 }
 
 
 @media screen and (max-width: 31.25em) {
 	.details{
 		margin-right: 0em;
+		grid-column: 1/5;
+	}
+	.namePS{
+		margin-left: 20%;
+		
+		
 	}
 
 }
