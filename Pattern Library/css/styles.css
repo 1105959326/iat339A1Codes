@@ -14,20 +14,13 @@ a{
 	color:#6E7376;
 }
 
-
-p{
-	font-family: 'Lora', serif;
-	font-size: 1em;
-	color: #6E7376;
-}
-
 .intext{
 	text-decoration:none;
 	color:#85837B;
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.5em;
+	font-size: max(1em, 1.3vw);
 	line-height: 2em;
 }
 
@@ -41,7 +34,6 @@ a:visited{
 	text-align: center;
 }
 
-<<<<<<< HEAD
 a.navi:hover{
 	
 	background-color: #D1D9D9;
@@ -50,9 +42,6 @@ a:hover{
 	
 
 }
-=======
-
->>>>>>> parent of 0af5bca (Merge branch 'main' of https://github.com/1105959326/iat339A1Codes into main)
 
 pre{
 	color: rgb(248, 248, 242);
@@ -63,8 +52,8 @@ pre{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.5em;
-	line-height: 2em;
+	font-size: max(1em, 1.5vw);
+	line-height: auto;
 	text-align: center;
 	color: #F7F7F7;
 	padding: 0.3em;
@@ -76,7 +65,8 @@ pre{
  	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1em;
+	font-size: max(1em, 1.5vw);
+	line-height: auto;
 	text-align: center;
 	padding: 0.3em;
 	color: white;
@@ -116,7 +106,8 @@ pre{
 	border: 1px solid #EECECE;
 	color: #F7F7F7;
 	text-decoration: none;
-	font-size: 1.5vw;
+	font-size: max(1em, 1.5vw);
+	line-height: auto;
 	line-height: 2em;
 	font-weight: 700;
 	padding: 0.3vw;
@@ -135,8 +126,8 @@ pre{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 1.5vw;
-	line-height: 2em;
+	font-size: max(1em, 1.5vw);
+	line-height: auto;
 	color: #EECECE;
 	padding: 0.3vw;
 	padding-left: 3vw;
@@ -262,7 +253,7 @@ h1{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 5vw;
-	line-height: 110px;
+	line-height: auto;
 	letter-spacing: 0.3em;
 	color: #7E7F7A;
 }
@@ -271,8 +262,8 @@ h2{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	
-	line-height: 39px;
+	font-size: max(1em, 2vw);
+	line-height: 50px;
 	color: #767676;
 	margin: 0;
 }
@@ -281,7 +272,7 @@ h5{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 3vw;
+	font-size: max(2em, 3vw);
 	line-height: 66px;		
 	color: #7E7F7A;
 	margin:0;
@@ -291,8 +282,8 @@ h3{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.5vw;
-	line-height: 20px;
+	font-size: max(1em, 1.5vw);
+	line-height: auto;
 	color: #767676;
 }
 
@@ -300,15 +291,17 @@ p, li{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.1vw;
+	font-size: max(1em, 1.1vw);
+	line-height: auto;
 	line-height: 23px;
 	color: #85837B;
 }
+
 p.footer{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1vw;
+	font-size: max(1em, 1.1vw);
 	line-height: 23px;
 	color: #85837B;
 }
@@ -317,7 +310,7 @@ ul, ol{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: max(1em, 1.1vw);
 	line-height: 23px;
 	color: #85837B;
 }
@@ -475,11 +468,20 @@ a.icon1{
 	height: 32px;
 }
 
-.single-discription{
+.singleTitle, .single-discription{
 	margin-top: 4em;
+	padding-left: 1em;
+	border-left: 1px solid #BABABA;
 }
+
+.singleTitle{
+	padding-right: 1em;
+	border-right: 1px solid #BABABA;
+}
+
 .single-discription2{
 	margin-top: 3em;
+	border-right: 1px solid #BABABA;
 }
 
 .recommend{
@@ -633,7 +635,7 @@ p.cartPn{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.3vw;
+	font-size: max(1em, 1.3vw);
 	line-height: 20px;
 	color: #85837B;
 }
@@ -658,7 +660,7 @@ h3.or{
 	font-family: Arapey;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 2vw;
+	font-size: max(2em, 2vw);
 }
 p.orderName{
 	margin-left: 1em;
@@ -667,7 +669,7 @@ p.orderName{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.3vw;
+	font-size: max(1em, 1.3vw);
 }
 .checkout{
 	background-color: #B7CBCB;
@@ -703,7 +705,7 @@ p.orderN{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.3vw;
+	font-size: max(1em, 1.3vw);
 
 }
 
@@ -818,20 +820,10 @@ p.orderN{
 		margin-left: 6em;
 	}
 }
-@media screen and (max-width:63em) {
-	.submit, .reset{
-		padding-left: 0.5vw;
-		padding-right: 0.5vw;
-	}
-}
 @media screen and (max-width: 56em) {
 	
 	.namePS{
 		margin-left: 15%;
-	}
-	.reset, .submit{
-		padding-left: 1vw;
-		padding-right: 1vw;
 	}
 }
 

@@ -100,7 +100,6 @@ header{
 	height: 0;
 	z-index: 1;
 	background-color: #B7CBCB;
-<<<<<<< HEAD
 	transition: 0.5s;
 }
 .sideA{
@@ -109,18 +108,6 @@ header{
 }
 .sideA:hover{
 	background-color: #D1D9D9;
-=======
-	transition: 5s;
-	display: none;
-}
-.opennavi{
-	cursor: pointer;
-}
-
-.sideA{
-	display: block;
-	padding: 0.5em;
->>>>>>> parent of 0af5bca (Merge branch 'main' of https://github.com/1105959326/iat339A1Codes into main)
 }
 
 
