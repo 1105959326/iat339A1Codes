@@ -9,6 +9,12 @@
 
 }
 
+.navigrids{
+	background-color: #B7CBCB;
+	vertical-align: middle;
+	height: 5em;
+}
+
 header, h2, h3{
 	grid-column: 1/9;
 }
