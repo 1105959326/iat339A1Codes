@@ -95,11 +95,16 @@ header{
 .sideNavi{
 	grid-column: 9/12;
 	display: block;
-	height: 0;
+	height: auto;
 	z-index: 1;
 	background-color: #B7CBCB;
-	transition: 0.5s;
+	transition: 5s;
+	display: none;
 }
+.opennavi{
+	cursor: pointer;
+}
+
 .sideA{
 	display: block;
 	padding: 0.5em;
