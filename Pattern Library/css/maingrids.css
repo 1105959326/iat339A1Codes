@@ -218,11 +218,8 @@ footer{
 }
 
 .single-discription-title{
-	grid-column: 2/7;
-}
-
-.single-discription-title{
-	grid-column: 4/9;
+	margin-top: 1em;
+	grid-column: 4/11;
 }
 
 .single-discription{
@@ -293,6 +290,7 @@ footer{
 .pinkRec{
 	margin: 0;
 	display: inline-block;
+	margin-bottom: 1em;
 }
 
 .third{
@@ -434,6 +432,8 @@ h3.or{
 	margin-left: 3em;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	width: 140%;
+	height: auto;
 }
 
 .setH{
@@ -681,11 +681,6 @@ footer{
 }
 
 @media screen and (max-width:63em) {
-	.setImg{
-		margin: 1em;
-		width: 30em;
-		height: auto;
-	}
 	/*h5{
 		margin: 0;
 		font-size: 4em;
@@ -814,9 +809,6 @@ footer{
 		margin: 0;
 	}
 
-	.sub{
-		grid-column: 6/8;
-	}
 	.order{
 		grid-column: 2/12;
 		line-height: auto;
@@ -844,6 +836,15 @@ footer{
 		grid-column: 3/11;
 		
 	}
+
+	.QAImg{
+		width: 30%;
+	}
+
+	.pinkRec{
+		width: 65%;
+		height: 40%;
+	}
 }
 
 @media screen and (max-width: 40em) {
@@ -861,14 +862,7 @@ footer{
 		margin-top: 1em;
 	}
 
-	.QAImg{
-		width: 30%;
-	}
-
-	.pinkRec{
-		width: 65%;
-		height: 40%;
-	}
+	
 	
 	.sub{
 		grid-column: 7/11;
