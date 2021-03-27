@@ -33,7 +33,9 @@ a:visited{
 	color: #6E7376;
 }
 
-
+a:hover{
+	color: #AFB0AA;
+}
 
 pre{
 	color: rgb(248, 248, 242);
@@ -275,7 +277,7 @@ h3{
 	font-style: normal;
 	font-weight: normal;
 	font-size: max(1em, 1.5vw);
-	line-height: auto;xf
+	line-height: auto;
 	color: #767676;
 }
 
