@@ -92,7 +92,18 @@ header{
 }
 
 
-
+.sideNavi{
+	grid-column: 9/12;
+	display: block;
+	height: 0;
+	z-index: 1;
+	background-color: #B7CBCB;
+	transition: 0.5s;
+}
+.sideA{
+	display: block;
+	padding: 0.5em;
+}
 
 
 .cardView{
