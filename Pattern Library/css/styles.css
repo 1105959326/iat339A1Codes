@@ -31,10 +31,16 @@ a.intext:hover{
 a:visited{
 	text-decoration: none;
 	color: #6E7376;
+	text-align: center;
 }
 
+a.navi:hover{
+	
+	background-color: #D1D9D9;
+}
 a:hover{
-	color: #AFB0AA;
+	
+	background-color: #D1D9D9;
 }
 
 pre{
