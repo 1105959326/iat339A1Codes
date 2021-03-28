@@ -623,7 +623,7 @@ p.cartP{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1vw;
+	font-size: max(0.8em, 1vw);
 	line-height: 20px;
 	color: #85837B;
 }
