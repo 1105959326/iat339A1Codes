@@ -97,9 +97,9 @@ h3.ph3n{
 a.pheaderback{
 	display: block;
 	grid-column: 2/4;
-	margin-top: 2em;
-	margin-bottom: 2em;
-	font-size: 2vw;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: 
 }
 
 .main{
@@ -122,4 +122,45 @@ a.pheaderback{
 	height: 23em;
 	width: 100%;
 	background-color: white;
+}
+
+.pcartC{
+	grid-column: 2/8;
+	margin-bottom: 5em;
+	margin-top: 8em;
+	height: 700px;
+}
+
+.pcartH1, .pcartH2, .pcartH3{
+	margin-left: 40px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.pcartH1{
+	width: 500px;
+	height: 100px;
+	background-image: url(../images/products2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.pcartH2{
+	width: 100px;
+	height: 100px;
+	background-image: url(../images/products3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.pcartH3{
+	width: 100px;
+	height: 100px;
+	background-image: url(../images/img1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
 }
