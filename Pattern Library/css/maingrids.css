@@ -58,6 +58,11 @@ body{
 	margin: 0;
 }
 
+.main{
+	grid-column: 1/13;
+	margin-top: -4.2em;
+}
+
 .maingrid{
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
