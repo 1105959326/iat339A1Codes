@@ -302,6 +302,7 @@ p.footer{
 	font-size: max(1em, 1.1vw);
 	line-height: 23px;
 	color: #85837B;
+	vertical-align: middle;
 }
 
 ul, ol{

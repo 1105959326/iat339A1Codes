@@ -438,12 +438,10 @@ h3.or{
 }
 
 footer{
-	height: 6em;
 }
 
 .footer{
-	grid-column: 2/10;
-	padding-top: 2em;
+	grid-column: 2/9;
 }
 
 .titleFooter{
