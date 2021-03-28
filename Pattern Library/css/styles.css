@@ -34,9 +34,13 @@ a:visited{
 	text-decoration: none;
 	color: #6E7376;
 }
-
-a:hover{
-	background-color:  #AFB0AA;
+a.navi{
+	padding-top: 35px;
+	padding-bottom: 27px;
+}
+a.navi:hover, a.sideA:hover{
+	background-color:  #D1D9D9;
+	
 }
 
 pre{
