@@ -30,7 +30,12 @@ a.ptitle{
 	margin-left: 3%;
 }
 
-header{
+pre{
+	background-color: rgb(40, 41, 35);
+ 	padding-top: 1rem;
+}
+
+header.pheader{
 	grid-column: 1/9;
 }
 h3.ph3{
@@ -63,4 +68,58 @@ pre{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	text-align: center;
+}
+
+h3.ph3n{
+	margin-top: 4%;
+	margin-left: 200px;
+	font-size: 2vw;
+}
+
+.citap{
+	margin-left: 200px;
+}
+.citatext{
+	max-width: 900px;
+}
+
+.w1{
+	width: 600px;
+	height: auto;
+	margin-left: 270px;
+}
+
+.pnavcode{
+	grid-column: 4/12;
+	margin-top: 10%;
+}
+
+a.pheaderback{
+	display: block;
+	grid-column: 2/4;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-size: 2vw;
+}
+
+.main{
+	grid-column: 1/13;
+	height: 587px;
+}
+.psecond{
+	margin-top: 1em;
+	background-color: #EECECE;
+	grid-column: 1/13;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-column-gap: 1em;
+	align-items: center;
+	height: 480px;
+}
+
+.psuggestImg{
+	margin: auto;
+	height: 23em;
+	width: 100%;
+	background-color: white;
 }
