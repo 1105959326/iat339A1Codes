@@ -1,9 +1,8 @@
 File Name Rules:
-Start with initial, no space or underscore, two digital number
-File Name example:CodingAndSturctureRules01
+Start with none-initial, no space or underscore
+File Name example:CodingAndSturctureRules
 
 Coding Rules:
-Use Lowercase Names
 Close All HTML Elements
 Always Quote Attribute Values
 Spaces and Equal Signs
