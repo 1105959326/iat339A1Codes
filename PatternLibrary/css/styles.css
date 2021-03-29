@@ -53,7 +53,6 @@ pre{
 	font-style: normal;
 	font-weight: normal;
 	font-size: max(1em, 1.5vw);
-	line-height: auto;
 	text-align: center;
 	color: #F7F7F7;
 	padding: 0.3em;
@@ -66,8 +65,6 @@ pre{
 	font-style: normal;
 	font-weight: normal;
 	font-size: max(1em, 1.5vw);
-	line-height: auto;
-	text-align: center;
 	padding: 0.3em;
 	color: white;
 	margin-left: 3em;
@@ -107,7 +104,6 @@ pre{
 	color: #F7F7F7;
 	text-decoration: none;
 	font-size: max(1em, 1.5vw);
-	line-height: auto;
 	font-weight: 700;
 	padding: 0.3vw;
 	padding-left: 3vw;
@@ -126,7 +122,6 @@ pre{
 	font-style: normal;
 	font-weight: bold;
 	font-size: max(1em, 1.5vw);
-	line-height: auto;
 	color: #EECECE;
 	padding: 0.3vw;
 	padding-left: 3vw;
@@ -252,7 +247,6 @@ h1{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 5vw;
-	line-height: auto;
 	letter-spacing: 0.3em;
 	color: #7E7F7A;
 }
@@ -282,7 +276,6 @@ h3{
 	font-style: normal;
 	font-weight: normal;
 	font-size: max(1em, 1.5vw);
-	line-height: auto;
 	color: #767676;
 }
 
@@ -291,7 +284,6 @@ p, li{
 	font-style: normal;
 	font-weight: normal;
 	font-size: max(1em, 1.1vw);
-	line-height: auto;
 	color: #85837B;
 }
 
@@ -490,7 +482,6 @@ h2.recommend{
 }
 
 .namePS{
-	font-size: ;
 	top: -20em;
 }
 .line{

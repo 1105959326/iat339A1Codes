@@ -108,7 +108,6 @@ a.pheaderback{
 	grid-column: 2/4;
 	margin-top: 3em;
 	margin-bottom: 3em;
-	font-size: 
 }
 
 .pmain{
@@ -141,10 +140,10 @@ a.pheaderback{
 }
 
 .pcartH1, .pcartH2, .pcartH3{
+	margin: 0;
 	margin-left: 40px;
-	margin-block-start: 0em;
-    margin-block-end: 0em;
 }
+
 .pcartH1{
 	width: 500px;
 	height: 100px;
@@ -186,10 +185,9 @@ a.pheaderback{
 }
 .pnamePS{
 	grid-column: 6/11;
-	margin-block-start: 0;
+	margin: 0;
 	margin-top: -10em;
 	text-align: left; 
-		font-size: ;
 	top: -20em;
 }
 
