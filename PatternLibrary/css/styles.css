@@ -1,3 +1,6 @@
+/*-----------------------------style css ----------------------*/
+
+/*-----------------------------fonts----------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
@@ -350,7 +353,7 @@ body{
 	display: inline-block;
 }
 
-/*-----------------------------SINGLE PRODUCT PAGE-------------------------------------*/
+/*-----------------------------SINGLE PRODUCT PAGE----------------------------*/
 
 .navigrid{
 	margin-top: 3.5em;
@@ -492,7 +495,7 @@ h2.recommend{
 
 
 
-/*-----------------------------------SINGLE PRODUCT 2 PAGE-------------------------------------*/
+/*-----------------------------------SINGLE PRODUCT 2 PAGE---------------*/
 .midImg2{
 	width: 100%;
 	height: 310px;
@@ -512,7 +515,7 @@ h2.recommend{
 	background-size: cover;	
 }
 
-/*-----------------------------------SINGLE PRODUCT 3 PAGE-------------------------------------*/
+/*-----------------------------------SINGLE PRODUCT 3 PAGE--------------------*/
 .midImg3{
 	grid-column: 1/13;
 	width: 100%;
@@ -524,7 +527,7 @@ h2.recommend{
 	background-size: cover;		
 }
 
-/*----------------------------------Q&A PAGE-------------------------------------*/
+/*----------------------------------Q&A PAGE-----------------------------------*/
 	
 .pinkRec{
 	width: 400px;
@@ -571,7 +574,7 @@ h2.recommend{
 	grid-column: 3/5;
 }
 
-/*-----------------------------------CART PAGE-------------------------------------*/
+/*-----------------------------------CART PAGE---------------------------*/
 .cartC{
 	margin-bottom: 5em;
 	margin-top: 8em;
@@ -753,8 +756,7 @@ p.orderN{
 	font-size: 1em;
 }
 
-
-
+/*-----------------------------media query for grids----------------------*/
 
 
 @media screen and (max-width: 94em) {
