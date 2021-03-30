@@ -3,109 +3,157 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--css files import here-->
 	<link rel="stylesheet" type="text/css" href="../PatternLibrary/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="../PatternLibrary/css/maingrids.css">
 	<title>Pure Island Cart</title>
 </head>
 <body>
+	<!--grid for the whole page, maingrid-->
 	<div class="maingrid">
+		<!--header, the navigation of the site-->
 		<header>
 			<nav class="navigrids">
-			<a class="title" href="home.html">Pure Island</a>
-			<a class="navi" href="products.html">PRODUCTS </a>
+			<a class="title" href="home.html">Pure Island</a><!--the logo of the site, click to go to home page-->
+			<a class="navi" href="products.html">TABLEWARE </a>
 			<a class="navi" href="theset.html">SETS </a>
 			<a class="navi" href="cart.html">CART </a>
 			<a class="navi" href="Q&A.html">Q&A</a>
-			<span class="opennavi">&#9776;</span>
-			
+			<span class="opennavi">&#9776;</span><!--the side navigation-->
 			</nav>
+			<!--navigation ends here-->
+
+			<!--side navigation, when the site is smaller than 45 em, the the side navigation show up-->
 			<nav class="sideNavi hide visualhide">
-				<a class="sideA" href="products.html">PRODUCTS </a>
+				<a class="sideA" href="products.html">TABLEWARE </a>
 				<a class="sideA" href="theset.html">SETS </a>
 				<a class="sideA" href="cart.html">CART </a>
 				<a class="sideA" href="Q&A.html">Q&A</a>
 			</nav>	
+			<!--side navigation ends here-->
 		</header>
+		<!--header, the navigation ends here-->
 
+		<!--the title of cart on the img-->
 		<div class="headingPosition">
-					<h5>Cart</h5>
+			<h5>Cart</h5>
 		</div>
+		<!--the title of tableware on the img ends here-->
+
+		<!--the cart section starts here-->
 		<div class="cartC">
+			<!--frist row of the cart section, the name line-->
 			<div class="cartGrid">
-			<h3 class="cartHP">Product</h3>
-			<h3 class="cartH">Price</h3>
-			<h3 class="cartH">Quantity</h3>
-			<h3 class="cartH">Total</h3>
+				<h3 class="cartHP">Product</h3>
+				<h3 class="cartH">Price</h3>
+				<h3 class="cartH">Quantity</h3>
+				<h3 class="cartH">Total</h3>
 			</div>
+			<!--the name line ends here-->
+
+			<!--frist item row of the cart section, each line contains one product img, name, color, price quantity, and totle price for this item-->
 			<div class="cartItem">
-				<div class="cartH1"></div>
+				<div class="cartH1"></div><!--product img-->
+				<!--name and color section, used same strcture in the single product gpage-->
 				<div class="rightCC">
 					<p class="cartPn">Pstiral</p>
 					<div class="white"> </div>
 				</div>
+				<!--name and color ends here-->
 				<p class="cartP">$22.00</p>
+				<!--input for number of the product-->
 				<form class="number">
-				<input type="text" maxlength="1" size="1">
+					<input type="text" maxlength="1" size="1">
 				</form>
+				<!--input ends here-->
 				<p class="cartP">$22.00</p>
-				<div class="lineC"></div>
+				<div class="lineC"></div><!--divid line for the row-->
 			</div>
+			<!--frist item row of the cart section ends here-->
+
+			<!--second item row of the cart section, each line contains one product img, name, color, price quantity, and totle price for this item-->
 			<div class="cartItem">
-				<div class="cartH2"></div>
+				<div class="cartH2"></div><!--product img-->
+				<!--name and color section, used same strcture in the single product gpage-->
 				<div class="rightCC">
 					<p class="cartPn">Matte Grey Plate</p>
 					<div class="white"> </div>
 				</div>
+				<!--name and color ends here-->
 				<p class="cartP">$18.00</p>
+				<!--input for number of the product-->
 				<form class="number">
-				<input type="text" maxlength="1" size="1">
+					<input type="text" maxlength="1" size="1">
 				</form>
+				<!--input ends here-->
 				<p class="cartP">$18.00</p>
-				<div class="lineC"></div>
+				<div class="lineC"></div><!--divid line for the row-->
 			</div>
+			<!--second item row of the cart section ends here-->
+
+			<!--thrid item row of the cart section, each line contains one product img, name, color, price quantity, and totle price for this item-->
 			<div class="cartItem">
-				<div class="cartH3"></div>
+				<div class="cartH3"></div><!--product img-->
+				<!--name and color section, used same strcture in the single product gpage-->
 				<div class="rightCC">
 					<p class="cartPn">Rose Pattern Plate</p>
 					<div class="white"> </div>
 				</div>
+				<!--name and color ends here-->
 				<p class="cartP">$17.00</p>
+				<!--input for number of the product-->
 				<form class="number">
-				<input type="text" maxlength="1" size="1">
+					<input type="text" maxlength="1" size="1">
 				</form>
+				<!--input ends here-->
 				<p class="cartP">$17.00</p>
 				<div class="lineC"></div>
+				<!--divid line for the row-->
 			</div>
+			<!--second item row of the cart section ends here-->
 		</div>
-		<div class="order">
-		<h3 class="or">Order Summary</h3>
-		<div class="orderText">
-			<p class="orderName">Subtotal</p>
-			<p class="orderName">Shipping</p>
-			<p class="orderName">Tax</p>
-			<div class="lineS"></div>
-			<p class="orderName">TOTAL</p>
-			<form class="checkForm">
-				<input class="checkbox" type="checkbox">
-				<p class="gift">Make order as gift</p>
-			</form>
-		</div>
-		<div class="orderPrice">
-			<p class="orderN">$57.00</p>
-			<p class="orderN">$0.00</p>
-			<p class="orderN">$6.84</p>
-			<div class="lineS"></div>
-			<p class="orderN">$63.84</p>
-		</div>
-		
-		<div class="checkout">
-			<a class="order-submit" href="information.html">CHECKOUT
-			</a>
-		</div>
-		</div>
-	</div>
+		<!--the cart section ends here-->
 
+		<!--the right order summary section starts here-->
+		<div class="order">
+			<h3 class="or">Order Summary</h3>
+			<!--the text in the order section starts here-->
+			<div class="orderText">
+				<p class="orderName">Subtotal</p>
+				<p class="orderName">Shipping</p>
+				<p class="orderName">Tax</p>
+				<div class="lineS"></div>
+				<p class="orderName">TOTAL</p>
+				<!--input check box-->
+				<form class="checkForm">
+					<input class="checkbox" type="checkbox">
+					<p class="gift">Make order as gift</p>
+				</form>
+				<!--input check box ends here-->
+			</div>
+			<!--the text in the order section ends here-->
+
+			<!--the price in the order section starts here-->
+			<div class="orderPrice">
+				<p class="orderN">$57.00</p>
+				<p class="orderN">$0.00</p>
+				<p class="orderN">$6.84</p>
+				<div class="lineS"></div>
+				<p class="orderN">$63.84</p>
+			</div>
+			<!--the price in the order section ends here-->
 		
+			<!--input check box-->
+			<div class="checkout">
+				<a class="order-submit" href="information.html">CHECKOUT</a>
+			</div>
+			<!--input check box ends here-->
+		</div>
+		<!--the right order summary section ends here-->
+	</div>
+	<!-- maingrid ends here-->
+
+	<!--footer section starts here, it has its own grid. the links to pattern library and icons for other socical platform-->		
 		<footer class="gridcontainer">
 			<p class="footer">© 2021 All Rights Reserved.</p>
 			<a href="../PatternLibrary/patternLibrary.html">Pattern Library</a>
@@ -118,6 +166,9 @@
 			</div>
 			<p class="titleFooter">PureIsland</p>
 		</footer>
+		<!-- footer ends here-->
+		
+	<!--js file import here-->
 		<script src="../PatternLibrary/js/javascript.js"></script>
 </body>
 </html>
