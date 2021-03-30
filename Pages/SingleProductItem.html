@@ -3,55 +3,72 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--css files import here-->
 	<link rel="stylesheet" type="text/css" href="../PatternLibrary/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="../PatternLibrary/css/maingrids.css">
 	<title>Single Item</title>
 </head>
 <body>
+	<!--header, the navigation of the site-->
 	<header>
 			<nav class="navigrids">
-			<a class="title" href="home.html">Pure Island</a>
-			<a class="navi" href="products.html">PRODUCTS </a>
+			<a class="title" href="home.html">Pure Island</a><!--the logo of the site, click to go to home page-->
+			<a class="navi" href="products.html">TABLEWARE </a>
 			<a class="navi" href="theset.html">SETS </a>
 			<a class="navi" href="cart.html">CART </a>
 			<a class="navi" href="Q&A.html">Q&A</a>
-			<span class="opennavi">&#9776;</span>
-			
+			<span class="opennavi">&#9776;</span><!--the side navigation-->
 			</nav>
+			<!--navigation ends here-->
+
+			<!--side navigation, when the site is smaller than 45 em, the the side navigation show up-->
 			<nav class="sideNavi hide visualhide">
-				<a class="sideA" href="products.html">PRODUCTS </a>
+				<a class="sideA" href="products.html">TABLEWARE </a>
 				<a class="sideA" href="theset.html">SETS </a>
 				<a class="sideA" href="cart.html">CART </a>
 				<a class="sideA" href="Q&A.html">Q&A</a>
 			</nav>
+			<!--side navigation ends here-->
 		</header>
-<div class="gridcontainer">
+		<!--header, the navigation ends here-->
+
+	<!--grid container starts here-->
+	<div class="gridcontainer">
+		<!--back button-->
 		<a class="back" href="products.html"><img  src="../PatternLibrary/images/Vector72.png"></a>
 
+		<!--main imgs for the product section starts here-->
 		<div class="mainImg">
 			<img class="mainImgSize" src="../PatternLibrary/images/cup1.jpg">
+			<!--mini preview imgs under big img section starts here-->
 			<div class="miniImgs">
-			
-			<a class="miniImg1" href=""><img class="miniImg" src="../PatternLibrary/images/cup2.jpg"></a>
-			<a class="miniImg1" href=""><img class="miniImg" src="../PatternLibrary/images/cup3.jpg"></a>
-			<a class="miniImg1" href=""><img class="miniImg" src="../PatternLibrary/images/cup4.jpg"></a>
-			
+				<a class="miniImg1" href=""><img class="miniImg" src="../PatternLibrary/images/cup2.jpg"></a>
+				<a class="miniImg1" href=""><img class="miniImg" src="../PatternLibrary/images/cup3.jpg"></a>
+				<a class="miniImg1" href=""><img class="miniImg" src="../PatternLibrary/images/cup4.jpg"></a>
 			</div>
+			<!--mini preview imgs ends here-->
 		</div>
+		<!--main imgs for the product section ends here-->
+
+		<!--right information section starts here-->
 		<div class="infor">
 			<h2 class="name">Stitching color Cup Set</h2>
             <h2 class="price">$15</h2>
+            <!--detail section starts here, it has its own grid-->
 			<div class="details">
 				<h3 class="detailName">Color</h3>
+				 <!--right color section, it has its own grid-->
 				<div class="rightC">
-				<div class="white"> </div>
-				<div class="greyC"> </div>
-				<div class="black"> </div>
+					<div class="white"> </div>
+					<div class="greyC"> </div>
+					<div class="black"> </div>
 				</div>
-				
+				<!--right color section ends here-->
 				
 				<h3 class="detailName">Number</h3>
+				<!--right number section, it has its own grid, same structure with color section-->
 				<div class="rightC">
+					<!--number input section starts here-->
 					<div class="numb">
 						<form>
 						<a class="interactB" href="">-   </a>
@@ -59,34 +76,51 @@
 						<a class="interactB" href="">   +</a>
 						</form>
 					</div>
+					<!--number input section ends here-->
 				</div>
+				<!--right number section ends here-->
 			</div>
-			
+			 <!--detail section ends here-->
 		</div>
+		<!--right information section ends here-->
+
+		<!--single product button starts here-->
 		<div class="namePS">
 				<a class="single-submit" href=""> ADD to Cart</a>
-			</div>
+		</div>
+		<!--single product button endss here-->
 	
+		<!--middle img section-->
+		<div class="midImg"></div>
 	
-	<div class="midImg"></div>
+		<!--single product description, title section-->
+		<div class="single-discription">
+			<h2>Stitching color Cup Set</h2>
+		</div>
 	
-	<div class="single-discription">
-		<h2>Stitching color Cup Set</h2>
-	</div>
-	
-	<div class="single-discription">
-		<p class="single">This coffee set use the underglaze colour. Methods of making ceramic tableware are overglaze color, underglaze color and glazed. The harmful metals like cadmium and lead are mainly from the enamel paint.</p>
-	</div>
-	<div class="single-discription2">
-		<p class="single">The Under Glaze Color Porcelain is precisely what distinguishes Changsha Kiln from the "southern blue" and "northern white"</p>
-	</div>
-	<div class="recommend">
-		<h2 class="recommend">You May Also Like</h2>
-		<div class="line"></div>
-	</div>
-	<div class="second-single">
-			<div > </div>
-			
+		<!--single product description, paragraph section-->
+		<div class="single-discription">
+			<p class="single">This coffee set use the underglaze colour. Methods of making ceramic tableware are overglaze color, underglaze color and glazed. The harmful metals like cadmium and lead are mainly from the enamel paint.</p>
+		</div>
+		<!--single product paragraph section ends here-->
+
+		<!--single product description, paragraph section-->
+		<div class="single-discription2">
+			<p class="single">The Under Glaze Color Porcelain is precisely what distinguishes Changsha Kiln from the "southern blue" and "northern white"</p>
+		</div>
+		<!--single product paragraph section ends here-->
+
+		<!--recommend section, title starts here-->
+		<div class="recommend">
+			<h2 class="recommend">You May Also Like</h2>
+			<div class="line"></div>
+		</div>
+		<!--recommend section, title ends here-->
+
+		<!--used same name with second section in home page, same structure, labled "single" starts here-->
+		<div class="second-single">
+			<div > </div><!--an empty div to hold placefor a space-->
+			<!--each card contains a img and a name of the product-->
 			<div class="card">
 				<img class="suggestImg" src="../PatternLibrary/images/img1.jpg">
 				<h3 class="cardName">Rose Pattern Plate</h3>
@@ -106,7 +140,11 @@
 				<h3 class="cardName">Corrugated Edge Plate</h3>
 			</div>
 		</div>
+		<!--used same name with second section in home page, same structure, labled "single" ends here-->
 	</div>
+	<!--grid container ends here-->
+
+	<!--footer section starts here, it has its own grid. the links to pattern library and icons for other socical platform-->
 	<footer class="gridcontainer">
 			<p class="footer">© 2021 All Rights Reserved.</p>
 			<a href="../PatternLibrary/patternLibrary.html">Pattern Library</a>
@@ -119,6 +157,9 @@
 			</div>
 			<p class="titleFooter">PureIsland</p>
 		</footer>
+		<!-- footer ends here-->
+
+		<!--js file import here-->
 		<script src="../PatternLibrary/js/javascript.js"></script>
 	</body>
 </html>

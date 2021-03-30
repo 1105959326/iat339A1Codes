@@ -3,32 +3,44 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--css files import here-->
 	<link rel="stylesheet" type="text/css" href="../PatternLibrary/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="../PatternLibrary/css/maingrids.css">
 	<title>Pure Island Information</title>
 </head>
 <body>
+	<!--grid for the whole page, maingrid-->
 	<div class="maingrid">
+		<!--header, the navigation of the site-->
 		<header>
 			<nav class="navigrids">
-			<a class="title" href="home.html">Pure Island</a>
-			<a class="navi" href="products.html">PRODUCTS </a>
+			<a class="title" href="home.html">Pure Island</a><!--the logo of the site, click to go to home page-->
+			<a class="navi" href="products.html">TABLEWARE </a>
 			<a class="navi" href="theset.html">SETS </a>
 			<a class="navi" href="cart.html">CART </a>
 			<a class="navi" href="Q&A.html">Q&A</a>
-			<span class="opennavi">&#9776;</span>
-			
+			<span class="opennavi">&#9776;</span>!--the side navigation-->
 			</nav>
+			<!--navigation ends here-->
+
+			<!--side navigation, when the site is smaller than 45 em, the the side navigation show up-->
 			<nav class="sideNavi hide visualhide">
-				<a class="sideA" href="products.html">PRODUCTS </a>
+				<a class="sideA" href="products.html">TABLEWARE </a>
 				<a class="sideA" href="theset.html">SETS </a>
 				<a class="sideA" href="cart.html">CART </a>
 				<a class="sideA" href="Q&A.html">Q&A</a>
 			</nav>
+			<!--side navigation ends here-->
 		</header>
-			<a class="back" href="products.html"><img  src="../PatternLibrary/images/Vector72.png"></a>
+		<!--header, the navigation ends here-->
+
+		<!--back button-->
+		<a class="back" href="products.html"><img  src="../PatternLibrary/images/Vector72.png"></a>
+
+		<!--left information section, it as its own grid-->
 		<div class="informationGrid">
 				<h2>Contact Information</h2>
+				<!--frist input section, contains input form-->
 				<div class="contactGrid">
 					<form>
 						<input class = "inforInput" type="text" name="firstname" placeholder="First Name">
@@ -40,7 +52,10 @@
 						<input class = "inforInput" type="text" name="firstname" placeholder="Email">
 					</form>
 				</div>
+				<!--frist input section ends here-->
+
 				<h2>Card Information</h2>
+				<!--second input section starts here-->
 				<div class="contactGrid">
 					<form class="longInfor">
 						<input class = "inforInput" type="text" name="firstname" placeholder="Card Number">
@@ -52,7 +67,10 @@
 						<input class = "inforInput" type="text" name="firstname" placeholder="CVV">
 					</form>
 				</div>
+				<!--second input section ends here-->
+
 				<h2>Delivery Method</h2>
+				<!--thrid input section starts here-->
 				<div class="contactGrid">
 					<form class="longInforRadio">
 						<input class= "radio" type="radio">
@@ -63,32 +81,40 @@
 	  					<label>Delivery</label>
 					</form>
 				</div>
+				<!--thrid input section ends here-->
+
 				<h2>Shipping Address</h2>
+				<!--thrid input section starts here-->
 				<div class="contactGrid">
-				<form class="longInfor">
-					<input class = "inforInput" type="text" name="firstname" placeholder="Address">
-				</form>
-				<form class="longInfor">
-					<input class = "inforInput" type="text" name="firstname" placeholder="Apartment, suite, etc(optional)">
-				</form>
-				<form>
-					<input class = "inforInput" type="text" name="firstname" placeholder="City">
-				</form>
-				<form>
-					<input class = "inforInput" type="text" name="firstname" placeholder="Country">
-				</form>
-				<form>
-					<input class = "inforInput" type="text" name="firstname" placeholder="Province">
-				</form>
-				<form>
-					<input class = "inforInput" type="text" name="firstname" placeholder="Post Code">
-				</form>
-				<form class="longInfor">
-					<input class = "inforInput" type="text" name="firstname" placeholder="Phone(optional)">
-				</form>
+					<form class="longInfor">
+						<input class = "inforInput" type="text" name="firstname" placeholder="Address">
+					</form>
+					<form class="longInfor">
+						<input class = "inforInput" type="text" name="firstname" placeholder="Apartment, suite, etc(optional)">
+					</form>
+					<form>
+						<input class = "inforInput" type="text" name="firstname" placeholder="City">
+					</form>
+					<form>
+						<input class = "inforInput" type="text" name="firstname" placeholder="Country">
+					</form>
+					<form>
+						<input class = "inforInput" type="text" name="firstname" placeholder="Province">
+					</form>
+					<form>
+						<input class = "inforInput" type="text" name="firstname" placeholder="Post Code">
+					</form>
+					<form class="longInfor">
+						<input class = "inforInput" type="text" name="firstname" placeholder="Phone(optional)">
+					</form>
 				</div>
+				<!--thrid input section ends here-->
 		</div>
+		<!--left information section ends here-->
+
+		<!--right discount section, it as its own grid-->
 		<div class="discountGrid">
+			<!--right promo code input, it as its own grid-->
 			<div class="promoGrid">
 				<h2 class="fullpromo">Promo Code</h2>
 				<form class="codepromo">
@@ -101,20 +127,30 @@
 				<div></div>
 				<p class="rightAlign">$00.00</p>
 			</div>
+			<!--right promo code input ends here-->
+
+			<!--right total promo section, it as its own grid-->
 			<div class="totalPromo">
 				<p>TOTAL</p>
 				<div></div>
 				<p class="rightAlign">$00.00</p>
 			</div>
+			<!--right total promo section ends here-->
 		</div>
-	<div></div>
-	<div></div>
-	<div class="inforbuttonGrid">
-	<a class="reset" href="">CANCEL</a>
-	<a class="submit" href="">SUBMIT</a>
-	</div>
-	</div>
+		<!--right discount section ends here-->
+		<div></div>
+		<div></div>
 
+		<!--information button section, it as its own grid-->
+		<div class="inforbuttonGrid">
+			<a class="reset" href="">CANCEL</a>
+			<a class="submit" href="">SUBMIT</a>
+		</div>
+		<!--information button section ends here-->
+	</div>
+	<!-- maingrid ends here-->
+
+	<!--footer section starts here, it has its own grid. the links to pattern library and icons for other socical platform-->
 		<footer class="gridcontainer">
 			<p class="footer">© 2021 All Rights Reserved.</p>
 			<a href="../PatternLibrary/patternLibrary.html">Pattern Library</a>
@@ -127,6 +163,9 @@
 			</div>
 			<p class="titleFooter">PureIsland</p>
 		</footer>
+		<!-- footer ends here-->
+		
+		<!--js file import here-->
 		<script src="../PatternLibrary/js/javascript.js"></script>
 </body>
 </html>

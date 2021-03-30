@@ -288,7 +288,7 @@ footer{
 	margin-bottom: 1em;
 }
 
-.third{
+.qamain{
 	margin-top: 0em;
 	background-color: #B7CBCB;
 	grid-column: 1/13;
@@ -299,7 +299,7 @@ footer{
 	align-items: center;
 }
 
-.forth{
+.answer{
 	margin-top: 0em;
 	grid-column: 1/13;
 	height: 30em;
@@ -322,7 +322,7 @@ footer{
 	grid-column: 4/6;
 }
 
-.test{
+.qaimgs{
 	grid-column: 1/13;
 	display: inline-block;
 	margin: auto;
@@ -829,7 +829,7 @@ footer{
 }
 
 @media screen and (max-width: 40em) {
-	.test{
+	.qaimgs{
 		vertical-align: middle;
 	}
 
