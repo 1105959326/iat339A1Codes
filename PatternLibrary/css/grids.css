@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+/*--------- grids for product section-------*/
 .pgridcontainer{
 	display: grid;
 	grid-template-columns: repeat(8,1fr);
@@ -12,12 +13,15 @@
 	margin-bottom: -1em;
 }
 
+/*--------- grids nav---------*/
 .navigrids{
 	background-color: #B7CBCB;
 	vertical-align: middle;
 	height: 5em;
 }
 
+
+/*--------- grids for page title---------*/
 a.ptitle{
 	font-family: 'Sacramento';
 	font-size: 3vw;
@@ -26,6 +30,7 @@ a.ptitle{
 	margin-left: 2%;
 }
 
+/*--------- grids for page nav---------*/
 .pnav{
 	font-family: 'Arapey', serif;
 	font-size: 16px;
@@ -35,21 +40,25 @@ a.ptitle{
 	margin-left: 3%;
 }
 
+/*--------- grids for code---------*/
 pre{
 	background-color: rgb(40, 41, 35);
  	padding-top: 1rem;
 }
 
+/*--------- grids for page header---------*/
 header.pheader{
 	grid-column: 1/9;
 }
+
+/*--------- grids for heading---------*/
 h3.ph3{
 	grid-column: 2/9;
 	margin-top: 5%;
 	font-size: 2vw;
 }
 
-
+/*--------- grids for nav--------*/
 nav{
 	grid-column: 1/8;
 	padding-left: 1rem;
@@ -63,12 +72,7 @@ nav{
 	padding: 1rem;
 }
 
-
-pre{
- 	background-color: rgb(40, 41, 35);
- 	padding-top: 1rem;
-}
-
+/*--------- grids for colors--------*/
 .colors{
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -81,6 +85,7 @@ h3.ph3n{
 	font-size: 2vw;
 }
 
+/*--------- grids for citations--------*/
 .citap{
 	margin-left: 200px;
 }
@@ -94,6 +99,7 @@ h3.ph3n{
 	margin-left: 270px;
 }
 
+/*--------- grids for code--------*/
 .pnavcode{
 	grid-column: 4/12;
 	margin-top: 10%;
