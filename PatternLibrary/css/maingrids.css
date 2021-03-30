@@ -50,6 +50,7 @@ a.navi{
 	align-items: center;
 	margin: 0;
 	margin-bottom: -1em;
+	column-gap: 10px;
 }
 
 .submibutton{
